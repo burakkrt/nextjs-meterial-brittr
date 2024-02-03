@@ -1,0 +1,34 @@
+// custumoize font
+$font-pp-neue: 'PP Neue Machina';
+$font-red-hat: 'Red Hat Display', sans-serif;
+
+// break points
+$breakpoints-es: 360px;
+$breakpoints-es-min: $breakpoints-es;
+$breakpoints-es-max: $breakpoints-es-min - 1px;
+$breakpoints-xs: 480px;
+$breakpoints-xs-min: $breakpoints-xs;
+$breakpoints-xs-max: $breakpoints-xs-min - 1px;
+$breakpoints-sm: 768px;
+$breakpoints-sm-min: $breakpoints-sm;
+$breakpoints-sm-max: $breakpoints-sm-min - 1px;
+$breakpoints-md: 1024px;
+$breakpoints-md-min: $breakpoints-md;
+$breakpoints-md-max: $breakpoints-md-min - 1px;
+$breakpoints-lg: 1200px;
+$breakpoints-lg-min: $breakpoints-lg;
+$breakpoints-lg-max: $breakpoints-lg-min - 1px;
+$breakpoints-xl: 1440px;
+$breakpoints-xl-min: $breakpoints-lg;
+$breakpoints-xl-max: $breakpoints-lg-min - 1px;
+$breakpoints-2xl: 1900px;
+$breakpoints-2xl-min: $breakpoints-xl;
+$breakpoints-2xl-max: $breakpoints-xl-min - 1px;
+
+$media-es: '(max-width: #{$breakpoints-es})';
+$media-lg: '(max-width: #{$breakpoints-lg})';
+$media-md: '(max-width: #{$breakpoints-md})';
+$media-sm: '(max-width: #{$breakpoints-sm})';
+$media-xl: '(max-width: #{$breakpoints-xl})';
+$media-xs: '(max-width: #{$breakpoints-xs})';
+$media-2xl: '(max-width: #{$breakpoints-2xl})';

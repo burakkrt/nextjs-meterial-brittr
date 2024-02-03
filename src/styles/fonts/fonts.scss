@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapLight.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainRegularItalic.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainRegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainUltrabold.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainUltrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapLightItalic.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapLightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapRegularItalic.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapRegularItalic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapUltrabold.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapUltrabold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapRegular.woff') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapUltraboldItalic.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-InktrapUltraboldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainLightItalic.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainLightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainRegular.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainRegular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainLight.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PP Neue Machina';
+  src:
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainUltraboldItalic.woff2') format('woff2'),
+    url('/fonts/PPNeueMachina/PPNeueMachina-PlainUltraboldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Red Hat Display';
+  src: url('/fonts/RedHatDisplay/RedHatDisplay-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}

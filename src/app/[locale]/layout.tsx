@@ -1,5 +1,4 @@
-import '@styles/reset.css';
-import '@styles/global.css';
+import '@/styles/main.scss';
 import { IRootParams } from './types';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { locales } from '@/i18n';
