@@ -73,5 +73,27 @@
         "imagesAlt": "..."
       }
     }
+  },
+  "Header": {
+    "pages": {
+      "pageCount": "4",
+      "page1": {
+        "label": "Home",
+        "path": ""
+      },
+      "page2": {
+        "label": "About",
+        "path": "/about"
+      },
+      "page3": {
+        "label": "Product",
+        "path": "/products"
+      },
+      "page4": {
+        "label": "Contact",
+        "path": "/contact"
+      }
+    },
+    "selectLanguage": "Lütfen Dil Seçin"
   }
 }

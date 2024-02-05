@@ -73,5 +73,27 @@
         "imagesAlt": "..."
       }
     }
+  },
+  "Header": {
+    "pages": {
+      "pageCount": "4",
+      "page1": {
+        "label": "Anasayfa",
+        "path": ""
+      },
+      "page2": {
+        "label": "Hakkımızda",
+        "path": "/about"
+      },
+      "page3": {
+        "label": "Ürünler",
+        "path": "/products"
+      },
+      "page4": {
+        "label": "İletişim",
+        "path": "/contact"
+      }
+    },
+    "selectLanguage": "Lütfen Dil Seçin"
   }
 }

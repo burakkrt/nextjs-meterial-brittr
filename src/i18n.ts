@@ -7,6 +7,8 @@ export default getRequestConfig(async ({ locale }) => {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale as any)) notFound();
 
+  console.log(locale, 'ddd');
+
   return {
     messages: (await import(`./languages/${locale}.json`)).default,
   };
