@@ -1,3 +1,4 @@
+import { useTranslations } from 'next-intl';
 import React from 'react';
 
 const RootPage = () => {
@@ -8,9 +9,6 @@ const RootPage = () => {
         nam nihil non, distinctio est quasi rerum necessitatibus! Assumenda ipsa itaque sed
         molestias. Quae, veniam. Exercitationem!
       </div>
-      <ul>
-        <li>fsdfds</li>
-      </ul>
     </>
   );
 };

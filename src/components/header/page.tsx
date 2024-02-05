@@ -201,6 +201,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
 
                 <Drawer anchor="right" open={mobileRightMenu} onClose={handlerToggleMenu(false)}>
                   <Box
+                    className="header-navigation-list-mobile"
                     sx={{ width: 250, backgroundColor: '#BF3131', height: '100%' }}
                     role="presentation"
                     onClick={handlerToggleMenu(false)}
@@ -264,18 +265,12 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   [theme.breakpoints.up('sm')]: {
                     justifyContent: 'center',
                   },
-                }}>
+                }}
+                className="header-navigation-list">
                 {pages.map((page, index) => (
-                  <Typography
-                    key={index}
-                    variant="body1"
-                    noWrap
-                    component="span"
-                    sx={{
-                      ':hover': { fontWeight: '900' },
-                      fontWeight: '850',
-                    }}>
+                  <Typography key={index} variant="body1" noWrap component="span">
                     <Link
+                      className="header-navigation-list-text"
                       key={index}
                       href={'/' + (locale && locale) + page.path}
                       onClick={() => mobileRightMenu && handlerToggleMenu(false)}
