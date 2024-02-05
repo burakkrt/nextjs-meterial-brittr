@@ -1,16 +1,65 @@
-import { useTranslations } from 'next-intl';
-import React from 'react';
+import HomeContainer from '@/containers/home/page';
+import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
+import { IParams } from './types';
+import { locales } from '@/i18n';
+import {
+  langMetaConvert,
+  langCanonicalUrls,
+} from '@/components/get-lang-contents/lang-meta-convert';
 
-const RootPage = () => {
+// Static meta tags rendering
+export async function generateMetadata({ params: { locale } }: IParams) {
+  const multiMetadata = await getTranslations({ locale, namespace: 'Metadata' });
+
+  // icons ve apple-icons eklemek için takip et :  https://nextjs.org/docs/app/api-reference/file-conventions/metadata/app-icons#image-files-ico-jpg-png
+  return {
+    title: multiMetadata('Home.title'),
+    description: multiMetadata('Home.description'),
+    keywords: multiMetadata('Home.keywords'),
+    metadataBase: new URL(multiMetadata('Home.metadataBase.baseUrl')),
+    applicationName: multiMetadata('Base.applicationName'),
+    referrer: multiMetadata('Base.referrer'),
+    alternates: {
+      canonical: '/',
+      languages: langCanonicalUrls(locales, locale),
+    },
+    formatDetection: {
+      email: multiMetadata('Base.formatDetection.email'),
+      address: multiMetadata('Base.formatDetection.address'),
+      telephone: multiMetadata('Base.formatDetection.telephone'),
+    },
+    openGraph: {
+      title: multiMetadata('Home.openGraph.title'),
+      description: multiMetadata('Home.openGraph.description'),
+      locale: multiMetadata('Base.openGraph.locale'),
+      alternateLocale: langMetaConvert(locales, locale),
+      url: multiMetadata('Home.openGraph.url'),
+      type: 'website',
+      siteName: multiMetadata('Base.openGraph.siteName'),
+      images: [
+        {
+          url: '...',
+          width: 800,
+          height: 600,
+        },
+        {
+          url: '...',
+          width: 1800,
+          height: 1600,
+          alt: multiMetadata('Home.openGraph.imagesAlt'),
+        },
+      ],
+    },
+  };
+}
+
+export default function Index({ params: { locale } }: IParams) {
+  unstable_setRequestLocale(locale);
+
   return (
     <>
-      <div className="test">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit dolorum illo in odio, magni,
-        nam nihil non, distinctio est quasi rerum necessitatibus! Assumenda ipsa itaque sed
-        molestias. Quae, veniam. Exercitationem!
-      </div>
+      <HomeContainer locale={locale} />
     </>
   );
-};
-
-export default RootPage;
+}
