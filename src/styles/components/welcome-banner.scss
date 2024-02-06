@@ -104,14 +104,32 @@
 @media #{$media-sm} {
   .welcome-banner {
     &-content {
-      max-width: 100%;
+      max-width: 70%;
       transform: translateY(-50%);
       top: 30%;
       left: 0;
 
       &-title {
-        font-size: 22px;
-        line-height: 26px;
+        font-size: 26px;
+        line-height: 32px;
+      }
+
+      &-text {
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+  }
+}
+
+@media #{$media-xs} {
+  .welcome-banner {
+    &-content {
+      max-width: 100%;
+
+      &-title {
+        font-size: 20px;
+        line-height: 24px;
       }
 
       &-text {
