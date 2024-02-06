@@ -83,17 +83,17 @@
       },
       "page2": {
         "label": "About",
-        "path": "/about"
+        "path": ""
       },
       "page3": {
         "label": "Product",
-        "path": "/products"
+        "path": ""
       },
       "page4": {
         "label": "Contact",
-        "path": "/contact"
+        "path": ""
       }
     },
-    "selectLanguage": "Lütfen Dil Seçin"
+    "selectLanguage": "Please Select Language"
   }
 }
