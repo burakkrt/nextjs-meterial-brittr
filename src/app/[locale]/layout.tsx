@@ -7,6 +7,7 @@ import ThemeRootProvider from '@/components/theme-provider';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import HeaderPage from '@/components/header';
 import getLangHeaders from '@/components/get-lang-contents/getLangHeaders';
+import ParallaxProviders from '@/components/parallax-provider';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -24,7 +25,7 @@ export default function RootLayout({ children, params: { locale } }: IRootParams
         <ThemeRootProvider>
           <body>
             <HeaderPage locale={locale} langHeader={getLangHeaders()} />
-            {children}
+            <ParallaxProviders>{children}</ParallaxProviders>
           </body>
         </ThemeRootProvider>
       </NextIntlClientProvider>
