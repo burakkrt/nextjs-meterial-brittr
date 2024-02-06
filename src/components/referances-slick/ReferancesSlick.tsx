@@ -47,6 +47,12 @@ const ReferancesSlick = () => {
       {
         breakpoint: 768,
         settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
           slidesToShow: 3,
         },
       },
