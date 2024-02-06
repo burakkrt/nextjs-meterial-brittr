@@ -64,3 +64,60 @@
     animation: pageDownAnim 1s ease-in-out infinite alternate;
   }
 }
+
+@media #{$media-2xl} {
+  .welcome-banner {
+    &-content {
+      max-width: 50%;
+    }
+  }
+}
+
+@media #{$media-xl} {
+  .welcome-banner {
+    height: calc(100dvh - 134px);
+
+    &-content {
+      max-width: 60%;
+      transform: translateY(-50%);
+      top: 30%;
+      left: 0;
+    }
+  }
+}
+
+@media #{$media-md} {
+  .welcome-banner {
+    height: calc(100dvh - 132px);
+
+    &-content {
+      max-width: 80%;
+
+      &-title {
+        font-size: 38px;
+        line-height: 44px;
+      }
+    }
+  }
+}
+
+@media #{$media-sm} {
+  .welcome-banner {
+    &-content {
+      max-width: 100%;
+      transform: translateY(-50%);
+      top: 30%;
+      left: 0;
+
+      &-title {
+        font-size: 22px;
+        line-height: 26px;
+      }
+
+      &-text {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+  }
+}
