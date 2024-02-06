@@ -38,3 +38,31 @@
     }
   }
 }
+
+@media #{$media-md} {
+  .slider-container {
+    padding: 32px 48px;
+    .slick-item {
+      .ref-image {
+        width: 120px;
+        height: 80px;
+      }
+    }
+  }
+}
+
+@media #{$media-sm} {
+  .slider-container {
+    padding: 24px 0;
+    .slick-item {
+      .ref-image {
+        width: 120px;
+        height: 80px;
+      }
+    }
+
+    .slick-arrow {
+      display: none;
+    }
+  }
+}
