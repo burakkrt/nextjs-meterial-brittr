@@ -27,7 +27,7 @@ export default function RootLayout({ children, params: { locale } }: IRootParams
           <body>
             <HeaderPage locale={locale} langHeader={getLangHeaders()} />
             <ParallaxProviders>{children}</ParallaxProviders>
-            <Footer />
+            <Footer locale={locale} pages={getLangHeaders()} />
           </body>
         </ThemeRootProvider>
       </NextIntlClientProvider>

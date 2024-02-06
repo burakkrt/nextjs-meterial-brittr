@@ -82,5 +82,159 @@ footer {
         min-height: 400px;
       }
     }
+
+    &-bottom {
+      margin-top: 74px;
+
+      &-copyright {
+        text-align: end;
+      }
+
+      &-pages {
+        display: flex;
+        flex-direction: row;
+        column-gap: 8px;
+
+        a {
+          color: $color-white;
+          font-family: $font-red-hat;
+
+          &:not(:last-child)::after {
+            content: '|';
+            display: inline-block;
+            padding-left: 8px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-xl} {
+  footer {
+    .footer {
+      padding: 88px 0 66px 0;
+      &-content {
+        &-right {
+          align-items: center;
+
+          .footer-content-socials {
+            &-item {
+              flex-direction: column;
+
+              &:not(:last-child) {
+                margin-right: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-lg} {
+  footer {
+    .footer {
+      padding: 88px 0 46px 0;
+      &-content {
+        &-contacts {
+          margin-top: 28px;
+
+          &-item {
+            &:not(:first-child) {
+              margin-top: 18px;
+            }
+          }
+        }
+
+        &-right {
+          .footer-content-socials {
+            margin-top: 28px;
+
+            &-item {
+              flex-direction: row;
+              column-gap: 8px;
+
+              &:not(:last-child) {
+                margin-bottom: 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-md} {
+  footer {
+    .footer {
+      &-content {
+        &-contacts {
+          max-width: 70%;
+        }
+      }
+
+      &-map {
+        iframe {
+          margin-top: 24px;
+          min-height: 400px;
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-xs} {
+  footer {
+    .footer {
+      padding: 88px 0 36px 0;
+      &-content {
+        &-contacts {
+          max-width: 100%;
+          &-item {
+            &:not(:first-child) {
+              margin-top: 22px;
+            }
+
+            h5 {
+              font-size: 20px;
+              line-height: 24px;
+            }
+            span {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+
+      &-map {
+        iframe {
+          min-height: 300px;
+        }
+      }
+
+      &-bottom {
+        margin-top: 34px;
+
+        &-copyright {
+          text-align: center;
+        }
+
+        &-pages {
+          justify-content: center;
+          column-gap: 4px;
+          margin-bottom: 34px;
+
+          a {
+            &:not(:last-child)::after {
+              padding-left: 4px;
+            }
+          }
+        }
+      }
+    }
   }
 }
