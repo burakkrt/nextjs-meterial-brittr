@@ -1,0 +1,86 @@
+footer {
+  color: $color-white;
+  background-image: url('../../../public/images/footer-back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .footer {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 88px 0;
+
+    &-content {
+      &-company-name {
+        font-size: 32px;
+        line-height: 42px;
+        font-family: $font-red-hat;
+      }
+
+      &-company-desc {
+        margin-top: 4px;
+        font-family: $font-pp-neue;
+      }
+
+      &-contacts {
+        margin-top: 48px;
+
+        &-item {
+          &:not(:first-child) {
+            margin-top: 18px;
+          }
+
+          h5 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 8px;
+            font-size: 22px;
+            line-height: 32px;
+            font-family: $font-red-hat;
+            margin-bottom: 4px;
+          }
+          span {
+            font-size: 18px;
+            line-height: 22px;
+            font-family: $font-red-hat;
+          }
+        }
+      }
+
+      &-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+        .footer-content-socials {
+          margin-top: 48px;
+
+          &-item {
+            display: inline-flex;
+            flex-direction: row;
+            align-items: center;
+            column-gap: 4px;
+
+            &:not(:last-child) {
+              margin-right: 14px;
+            }
+
+            span {
+              font-size: 18px;
+              line-height: 22px;
+              font-family: $font-red-hat;
+            }
+          }
+        }
+      }
+    }
+
+    &-map {
+      iframe {
+        border-radius: 14px;
+        width: 100%;
+        min-height: 400px;
+      }
+    }
+  }
+}

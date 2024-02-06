@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import ThemeRootProvider from '@/components/theme-provider';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import HeaderPage from '@/components/header';
+import Footer from '@/components/footer';
 import getLangHeaders from '@/components/get-lang-contents/getLangHeaders';
 import ParallaxProviders from '@/components/parallax-provider';
 
@@ -26,6 +27,7 @@ export default function RootLayout({ children, params: { locale } }: IRootParams
           <body>
             <HeaderPage locale={locale} langHeader={getLangHeaders()} />
             <ParallaxProviders>{children}</ParallaxProviders>
+            <Footer />
           </body>
         </ThemeRootProvider>
       </NextIntlClientProvider>
