@@ -10,7 +10,7 @@ const AboutUs = () => {
   });
 
   const { ref: parallaxRefImage } = useParallax({
-    translateX: ['300px', '0px'],
+    translateX: ['300px', '100px'],
   });
 
   return (
@@ -29,7 +29,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="about-us-content-view-image" ref={parallaxRefImage as any}>
-            <Image src="/images/about-us-why.png" alt="About Us Image" fill />
+            <Image src="/images/about-us-why.jpg" alt="About Us Image" fill />
           </div>
         </div>
       </Container>
