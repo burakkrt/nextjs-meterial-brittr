@@ -1,0 +1,20 @@
+.slider-container {
+  padding: 48px;
+  div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+  }
+
+  .slick-slide {
+    &:nth-child(even) {
+      background-color: red;
+    }
+
+    &:nth-child(odd) {
+      background-color: green;
+    }
+  }
+}
