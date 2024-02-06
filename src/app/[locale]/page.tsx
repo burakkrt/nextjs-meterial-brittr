@@ -57,9 +57,5 @@ export async function generateMetadata({ params: { locale } }: IParams) {
 export default function Index({ params: { locale } }: IParams) {
   unstable_setRequestLocale(locale);
 
-  return (
-    <>
-      <HomeContainer locale={locale} />
-    </>
-  );
+  return <HomeContainer locale={locale} />;
 }

@@ -118,7 +118,6 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
         <Container
           maxWidth="xl"
           sx={{
-            borderBottom: '1px solid rgba(0,0,0,0.2)',
             padding: '0.5rem 0',
             [theme.breakpoints.up('sm')]: {
               padding: '1rem 0',
