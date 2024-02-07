@@ -12,7 +12,7 @@ const ReferancesSlick = () => {
     slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 500,
+    speed: 1000,
     autoplaySpeed: 2000,
     initialSlide: 0,
     pauseOnHover: false,
