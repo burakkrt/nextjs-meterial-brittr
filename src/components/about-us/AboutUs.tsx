@@ -5,18 +5,10 @@ import React from 'react';
 import { useParallax } from 'react-scroll-parallax';
 
 const AboutUs = () => {
-  const { ref: parallaxRefTitle } = useParallax({
-    speed: -30,
-  });
-
-  const { ref: parallaxRefImage } = useParallax({
-    translateX: ['300px', '100px'],
-  });
-
   return (
     <div className="about-us">
       <Container maxWidth="lg" className="about-us-content">
-        <div className="about-us-content-view" ref={parallaxRefTitle as any}>
+        <div className="about-us-content-view">
           <div className="about-us-content-view-left">
             <h2 className="about-us-content-view-left-title">Biz kimiz ?</h2>
             <p className="about-us-content-view-left-text">
@@ -28,7 +20,7 @@ const AboutUs = () => {
               dolorum ad, expedita quis. Fugiat consequuntur hic omnis.
             </p>
           </div>
-          <div className="about-us-content-view-image" ref={parallaxRefImage as any}>
+          <div className="about-us-content-view-image">
             <Image src="/images/about-us-why.jpg" alt="About Us Image" fill sizes="100%" />
           </div>
         </div>
