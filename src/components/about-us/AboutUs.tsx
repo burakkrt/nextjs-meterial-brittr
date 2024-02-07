@@ -29,7 +29,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="about-us-content-view-image" ref={parallaxRefImage as any}>
-            <Image src="/images/about-us-why.jpg" alt="About Us Image" fill />
+            <Image src="/images/about-us-why.jpg" alt="About Us Image" fill sizes="100%" />
           </div>
         </div>
       </Container>

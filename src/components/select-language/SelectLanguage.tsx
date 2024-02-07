@@ -40,7 +40,7 @@ function SimpleDialog(props: SimpleDialogProps) {
           <ListItemButton sx={{ minWidth: 300 }} onClick={() => handleListItemClick(country)}>
             <ListItemAvatar>
               <Avatar sx={{ bgcolor: 'transparent', color: 'none' }}>
-                <Image src={country.image} alt="Country Image" fill />
+                <Image src={country.image} alt="Country Image" fill sizes="100%" />
               </Avatar>
             </ListItemAvatar>
             <ListItemText primary={country.name} />
@@ -79,7 +79,7 @@ function SelectLanguage({ locale, pathname, color: textColor }: IRootProps) {
       <Button onClick={handleClickOpen} sx={{ color: 'white' }}>
         <ListItemAvatar sx={{ minWidth: '0', marginRight: '0.5rem' }}>
           <Avatar sx={{ bgcolor: 'transparent', color: 'none' }}>
-            <Image src={selectedValue.image} alt="Country Image" fill />
+            <Image src={selectedValue.image} alt="Country Image" fill sizes="100%" />
           </Avatar>
         </ListItemAvatar>
         <Typography variant="button" sx={{ color: `${textColor}` }}>

@@ -74,52 +74,52 @@ const ReferancesSlick = () => {
       <Slider {...settings}>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-1.jpg" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-1.jpg" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-2.jpg" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-2.jpg" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-3.png" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-3.png" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-4.png" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-4.png" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-5.jpg" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-5.jpg" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-6.jpg" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-6.jpg" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-7.png" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-7.png" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-8.png" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-8.png" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-9.png" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-9.png" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-10.png" alt="Referance Logo" fill />
+            <Image src="/images/referances/ref-10.png" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
       </Slider>
