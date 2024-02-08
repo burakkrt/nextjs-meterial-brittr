@@ -17,24 +17,26 @@ const Products: React.FC<IProductsProps> = ({ locale }) => {
 
   function renderPreviewProducts() {
     return (
-      <Container maxWidth="xl" className="products-preview">
-        {data.data.map((category, index) => (
-          <div className="products-preview-image" key={index}>
-            <div className="products-preview-image-title">{category.category}</div>
-            <Image
-              src={`/images/products/${category.categoryImgName}`}
-              alt={category.category}
-              sizes="100%"
-              fill
-              placeholder="blur"
-              blurDataURL={`/images/products/${category.categoryImgName}`}
-            />
+      <Container maxWidth="xl">
+        <div className="products-preview">
+          {data.data.map((category, index) => (
+            <div className="products-preview-image" key={index}>
+              <div className="products-preview-image-title">{category.category}</div>
+              <Image
+                src={`/images/products/${category.categoryImgName}`}
+                alt={category.category}
+                sizes="100%"
+                fill
+                placeholder="blur"
+                blurDataURL={`/images/products/${category.categoryImgName}`}
+              />
+            </div>
+          ))}
+          <div className="products-preview-button">
+            <button type="button" onClick={() => setShowProducts(true)}>
+              Tümünü Göster
+            </button>
           </div>
-        ))}
-        <div className="products-preview-button">
-          <button type="button" onClick={() => setShowProducts(true)}>
-            Tümünü Göster
-          </button>
         </div>
       </Container>
     );
