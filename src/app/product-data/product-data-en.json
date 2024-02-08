@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "category": "Chicken",
+      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
+      "categoryImgName": "chicken.jpg",
+      "products": [
+        {
+          "title": "",
+          "imgName": "chicken.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Turkey",
+      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
+      "categoryImgName": "turkey.jpg",
+      "products": [
+        {
+          "title": "",
+          "imgName": "turkey.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Meat",
+      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
+      "categoryImgName": "meat.jpg",
+      "products": [
+        {
+          "title": "",
+          "imgName": "meat.jpg"
+        }
+      ]
+    }
+  ]
+}

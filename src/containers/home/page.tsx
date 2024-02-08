@@ -11,7 +11,7 @@ function HomeContainer({ locale }: IRootParams) {
       <WelcomeBanner />
       <ReferancesSlick />
       <AboutUs />
-      <Products />
+      <Products locale={locale} />
     </>
   );
 }

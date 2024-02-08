@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "category": "Tavuk",
+      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
+      "categoryImgName": "chicken.jpg",
+      "products": [
+        {
+          "title": "Tavuk But",
+          "imgName": "chicken.jpg"
+        },
+        {
+          "title": "Tavuk Kanat",
+          "imgName": "chicken.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Hindi",
+      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
+      "categoryImgName": "turkey.jpg",
+      "products": [
+        {
+          "title": "Hindi But",
+          "imgName": "turkey.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Et",
+      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
+      "categoryImgName": "meat.jpg",
+      "products": [
+        {
+          "title": "Dana Kaburga",
+          "imgName": "meat.jpg"
+        }
+      ]
+    }
+  ]
+}
