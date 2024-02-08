@@ -1,0 +1,44 @@
+.products-layout {
+  .products {
+    padding: 4rem 0;
+
+    &-header {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      column-gap: 8px;
+      margin-bottom: 4rem;
+
+      h2 {
+        font-family: $font-pp-neue;
+        font-size: 98px;
+        line-height: 98px;
+        text-transform: uppercase;
+        color: #0c2d57;
+        display: flex;
+        flex-direction: row;
+
+        &::after {
+          content: '|';
+          display: inline-block;
+          margin-left: 8px;
+        }
+      }
+
+      p {
+        font-family: $font-pp-neue;
+        font-size: 18px;
+        line-height: 22px;
+        color: rgba(0, 0, 0, 0.6);
+      }
+    }
+
+    &-list {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 14px;
+      column-gap: 14px;
+    }
+  }
+}

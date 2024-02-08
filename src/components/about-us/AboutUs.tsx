@@ -10,7 +10,7 @@ const AboutUs = () => {
       <Container maxWidth="lg" className="about-us-content">
         <div className="about-us-content-view">
           <div className="about-us-content-view-left">
-            <h2 className="about-us-content-view-left-title">Biz kimiz ?</h2>
+            <h2 className="about-us-content-view-left-title">About Us ?</h2>
             <p className="about-us-content-view-left-text">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum eum aliquam aliquid
               impedit optio labore nostrum porro vitae ex explicabo blanditiis dolorem assumenda
