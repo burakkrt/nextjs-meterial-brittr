@@ -1,35 +1,290 @@
 {
   "data": [
     {
-      "category": "Chicken",
-      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
-      "categoryImgName": "chicken.jpg",
+      "category": "Chicken Products",
+      "categoryDesc": "Our product range offers a wide selection catering to various taste preferences. Whether you prefer boneless chicken breast fillets, wings, or thighs, you can be sure to find a product that suits your needs. Additionally, we offer marinated or seasoned chicken options, allowing you to add a quick and flavorful touch to your kitchen. As a company, we strive to maintain the highest quality of our chicken products. Each product is produced from meticulously selected chickens and packaged under hygienic conditions. We continuously review and improve our production processes to offer our customers the freshest and healthiest products.",
+      "categoryImgName": "chicken-category.jpg",
       "products": [
         {
-          "title": "",
-          "imgName": "chicken.jpg"
+          "title": "Whole Chicken",
+          "imgName": "chicken-1.jpg"
+        },
+        {
+          "title": "Chicken Leg Products",
+          "imgName": "chicken-2.jpg"
+        },
+        {
+          "title": "Chicken Breast Products",
+          "imgName": "chicken-3.jpg"
+        },
+        {
+          "title": "Chicken Wing Products",
+          "imgName": "chicken-4.jpg"
+        },
+        {
+          "title": "Chicken Giblet Products",
+          "imgName": "chicken-5.jpg"
+        },
+        {
+          "title": "Chicken Sauced Products",
+          "imgName": "chicken-6.jpg"
         }
       ]
     },
     {
-      "category": "Turkey",
-      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
-      "categoryImgName": "turkey.jpg",
+      "category": "Turkey Products",
+      "categoryDesc": "Our turkey products are offered in various cuts and varieties. Whether you prefer turkey breast, leg, or wing pieces, you can be sure to find a product that suits your needs. Additionally, we offer marinated or specially seasoned turkey products, allowing you to easily add different flavors to your table. As a company, we always aim to maintain the highest quality of our turkey products. Each turkey piece is sourced from carefully selected turkey breeders and processed under hygienic conditions. Stringent quality control procedures are implemented to ensure the freshness and nutritional value of our products.",
+      "categoryImgName": "turkey-category.jpg",
       "products": [
         {
-          "title": "",
-          "imgName": "turkey.jpg"
+          "title": "Whole Turkey",
+          "imgName": "turkey-1.jpg"
+        },
+        {
+          "title": "Turkey Leg Products",
+          "imgName": "turkey-2.jpg"
+        },
+        {
+          "title": "Turkey Breast Products",
+          "imgName": "turkey-3.jpg"
+        },
+        {
+          "title": "Turkey Wing Products",
+          "imgName": "turkey-4.jpg"
+        },
+        {
+          "title": "Turkey Giblet Products",
+          "imgName": "turkey-5.jpg"
         }
       ]
     },
     {
-      "category": "Meat",
-      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
-      "categoryImgName": "meat.jpg",
+      "category": "Meat Products",
+      "categoryDesc": "Our product range includes various types and cuts of meat. From beef, veal, lamb, to various other types of meat products, you can find a product that suits your needs. Whether you prefer steaks, minced meat, or diced meat cuts, you can be sure to find a suitable product. As a company, we always strive to maintain the highest quality of our meat products. Our meats are sourced from reliable suppliers and processed under hygienic conditions. Our quality control teams continuously work to ensure that the products meet standards for freshness, nutritional value, and safety.",
+      "categoryImgName": "meat-category.jpg",
       "products": [
         {
-          "title": "",
-          "imgName": "meat.jpg"
+          "title": "Varieties of Beef",
+          "imgName": "meat-1.jpg"
+        },
+        {
+          "title": "Varieties of Lamb",
+          "imgName": "meat-2.jpg"
+        },
+        {
+          "title": "Varieties of Goat",
+          "imgName": "meat-3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Seafood Products",
+      "categoryDesc": "Our product range includes various seafood options. From fish, shrimp, squid, mussels, oysters, and more, we offer a variety of seafood options. Each product is carefully selected from the sea and processed under hygienic conditions. As a company, we strive to maintain the highest quality of our seafood products. Strict quality control procedures are implemented to offer fresh and healthy seafood to our customers. Additionally, we are sensitive to sustainable seafood sourcing, aiming to protect natural resources and provide clean seafood for future generations.",
+      "categoryImgName": "seafood-category.jpg",
+      "products": [
+        {
+          "title": "Tuna",
+          "imgName": "seafood-1.jpg"
+        },
+        {
+          "title": "Mackerel",
+          "imgName": "seafood-2.jpg"
+        },
+        {
+          "title": "Salmon",
+          "imgName": "seafood-3.jpg"
+        },
+        {
+          "title": "Shrimp",
+          "imgName": "seafood-4.jpg"
+        },
+        {
+          "title": "Squid",
+          "imgName": "seafood-5.jpg"
+        },
+        {
+          "title": "Crab",
+          "imgName": "seafood-6.jpg"
+        },
+        {
+          "title": "All Types of Seafood",
+          "imgName": "seafood-7.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Processed Products",
+      "categoryDesc": "Our product range includes various food items with different nutritional values and ease of use. From ready meals, snacks, frozen foods, dried fruits and vegetables, to meal replacement bars, we offer a variety of processed food product options. As a company, we aim to maintain the highest quality and nutritional value of our processed food products. Our processed foods are made from natural and healthy ingredients with minimal use of additives. Additionally, we use special packaging and storage methods to preserve the freshness and flavor of our products.",
+      "categoryImgName": "processed-category.jpg",
+      "products": [
+        {
+          "title": "Nuggets",
+          "imgName": "processed-1.jpg"
+        },
+        {
+          "title": "Burger",
+          "imgName": "processed-2.jpg"
+        },
+        {
+          "title": "Schnitzel",
+          "imgName": "processed-3.jpg"
+        },
+        {
+          "title": "Cordon Bleu",
+          "imgName": "processed-4.jpg"
+        },
+        {
+          "title": "All Types Of Processed Products",
+          "imgName": "processed-5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Deli Products",
+      "categoryDesc": "Our product range offers a wide selection, catering to different tastes and textures. In addition to traditional Turkish deli products such as sucuk, salami, sausage, pastrami, ham, we also offer cheese varieties, olive varieties, jams, pickles, and many other options. As a company, we aim to maintain the highest quality of our deli products. Each product is made from the freshest and highest quality ingredients using traditional methods. Additionally, our products are produced and packaged under hygienic conditions to provide our customers with reliable products.",
+      "categoryImgName": "delicatessen-category.jpg",
+      "products": [
+        {
+          "title": "Sausage",
+          "imgName": "delicatessen-1.webp"
+        },
+        {
+          "title": "Salami",
+          "imgName": "delicatessen-2.webp"
+        },
+        {
+          "title": "Luncheon Meat",
+          "imgName": "delicatessen-3.webp"
+        }
+      ]
+    },
+    {
+      "category": "Egg Products",
+      "categoryDesc": "Our product range includes various forms and uses of eggs. In addition to fresh eggs, we offer processed egg products such as scrambled eggs, pasteurized egg products, egg powder, egg whites, and egg yolks. These products can be used for cooking, pre-cooking preparation, or as an ingredient in other food products. As a company, we always aim to maintain the highest quality of our egg products. Our fresh eggs are sourced from reliable producers and processed under hygienic conditions. Our processed egg products are also produced and packaged to high-quality standards.",
+      "categoryImgName": "eggs-category.jpg",
+      "products": [
+        {
+          "title": "White Eggs",
+          "imgName": "eggs-1.webp"
+        },
+        {
+          "title": "Brown Eggs",
+          "imgName": "eggs-2.webp"
+        }
+      ]
+    },
+    {
+      "category": "Fruits",
+      "categoryDesc": "Our product range includes various fruit varieties. We offer apples, pears, bananas, oranges, strawberries, grapes, mangoes, pineapples, and many other fruit varieties to our customers. Each fruit is grown using natural farming methods and harvested at its ripest and freshest state before being presented to our customers. As a company, we strive to maintain the highest quality of our fruits. By using sustainable farming practices in cultivation and harvest processes, we aim to protect natural resources and produce in an environmentally friendly manner. Additionally, we use effective storage and transportation methods to preserve the freshness and nutritional value of fruits.",
+      "categoryImgName": "fruits-category.webp",
+      "products": [
+        {
+          "title": "Blackberri",
+          "imgName": "fruits-1.jpg"
+        },
+        {
+          "title": "Raspberri",
+          "imgName": "fruits-2.webp"
+        },
+        {
+          "title": "Cherri",
+          "imgName": "fruits-3.png"
+        },
+        {
+          "title": "Strawberri",
+          "imgName": "fruits-4.webp"
+        },
+        {
+          "title": "All Kinds of Fruits",
+          "imgName": "fruits-5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Vegetables",
+      "categoryDesc": "Our product range includes various vegetable varieties. We offer broccoli, carrots, lettuce, tomatoes, cucumbers, peppers, potatoes, zucchinis, artichokes, spinach, and many other vegetable varieties to our customers. Each vegetable is grown using natural farming methods and harvested fresh and healthy. As a company, we strive to maintain the highest quality of our vegetables. By using sustainable farming practices in cultivation and harvest processes, we aim to protect natural resources and produce in an environmentally friendly manner. Our vegetables are harvested when ripe and carefully packaged for customers.",
+      "categoryImgName": "vegetables-category.webp",
+      "products": [
+        {
+          "title": "Broccoli",
+          "imgName": "vegetables-1.webp"
+        },
+        {
+          "title": "Peas",
+          "imgName": "vegetables-2.webp"
+        },
+        {
+          "title": "Fresh Beans",
+          "imgName": "vegetables-3.jpg"
+        },
+        {
+          "title": "Brussels Sprouts",
+          "imgName": "vegetables-4.jpg"
+        },
+        {
+          "title": "All Kinds of Vegetables",
+          "imgName": "vegetables-5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Canned Products",
+      "categoryDesc": "Our product range includes various food items designed to meet various needs. Vegetables, fruits, fish, meat products, ready meals, and many other food products are offered in canned form. These products offer practical use to our customers while preserving their freshness for a long time. As a company, we strive to maintain the highest quality of our canned products. Our products, made from the freshest and natural ingredients, undergo strict quality control procedures and are packaged under hygienic conditions. Thus, we can offer our customers reliable and delicious products.",
+      "categoryImgName": "canneds-category.jpg",
+      "products": [
+        {
+          "title": "Canned Fish Varieties",
+          "imgName": "canneds-1.jpg"
+        },
+        {
+          "title": "Canned Fruit Varieties",
+          "imgName": "canneds-2.webp"
+        },
+        {
+          "title": "Canned Vegetable Varieties",
+          "imgName": "canneds-3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Sauces",
+      "categoryDesc": "Our product range includes various sauce varieties catering to different tastes. BBQ sauce, hot sauce, teriyaki sauce, mustard sauce, garlic sauce, pesto sauce, mayonnaise, and many other sauce varieties are available. Each sauce is made using the freshest and natural ingredients, aiming for a rich flavor profile. As a company, we strive to maintain the highest quality of our sauces. Well-selected ingredients, carefully crafted recipes, and meticulously controlled production processes allow us to offer our customers reliable and delicious sauces. Additionally, we aim to target a wide customer base by offering options suitable for different dietary preferences, hence, vegan, gluten-free, or low-sodium sauces are also available.",
+      "categoryImgName": "sauces-category.jpg",
+      "products": [
+        {
+          "title": "Ketchup",
+          "imgName": "sauces-1.jpg"
+        },
+        {
+          "title": "Mayonnaise",
+          "imgName": "sauces-2.jpg"
+        },
+        {
+          "title": "BBQ Sauce",
+          "imgName": "sauces-3.webp"
+        },
+        {
+          "title": "Cheddar Sauce",
+          "imgName": "sauces-4.jpg"
+        },
+        {
+          "title": "Ranch Sauce",
+          "imgName": "sauces-5.webp"
+        },
+        {
+          "title": "All Kinds of Sauces",
+          "imgName": "sauces-6.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Frozen Potatoes",
+      "categoryDesc": "Our product range includes various frozen potato varieties. Sliced potatoes, french fries, grated potatoes, potato wedges, and many other options are available. Each product is produced by freezing fresh potatoes at their optimum freshness. As a company, we strive to maintain the highest quality of our frozen potatoes. Products made from fresh and quality potatoes are processed under hygienic conditions and frozen to preserve their freshness and nutritional value. Our frozen potato products offer convenience to our customers and can be easily prepared for various dishes.",
+      "categoryImgName": "patato-category.webp",
+      "products": [
+        {
+          "title": "French Fries",
+          "imgName": "patato-1.jpg"
         }
       ]
     }

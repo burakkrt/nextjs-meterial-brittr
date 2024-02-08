@@ -69,7 +69,13 @@ const Products: React.FC<IProductsProps> = ({ locale }) => {
             </ul>
           </div>
           <div className="products-content-product-list">
-            <div className="products-content-product-list-filter"></div>
+            <div className="products-content-product-list-filter">
+              {selectCategory !== 'all' && (
+                <button onClick={() => setSelectCategory('all')}>
+                  {locale === 'tr' ? 'Tüm Ürünleri Göster' : 'Show all products'}
+                </button>
+              )}
+            </div>
             <div className="products-content-product-list-products">{renderProductList()}</div>
           </div>
           <div className="products-content-right-info">

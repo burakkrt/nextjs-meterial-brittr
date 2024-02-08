@@ -1,39 +1,290 @@
 {
   "data": [
     {
-      "category": "Tavuk",
-      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
-      "categoryImgName": "chicken.jpg",
+      "category": "Tavuk Ürünleri",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli damak zevklerine hitap eden geniş bir seçenek sunar. İster kemiksiz göğüs filetosu, ister kanat, isterse but gibi tavuk parçalarını tercih edin, ihtiyaçlarınıza uygun bir ürün bulabileceğinizden emin olabilirsiniz. Ayrıca, marine edilmiş veya baharatlanmış tavuk seçeneklerimiz de mevcuttur, böylece mutfağınıza hızlı ve lezzetli bir dokunuş ekleyebilirsiniz. Firma olarak, tavuk ürünlerimizin kalitesini en üst seviyede tutmaya özen gösteriyoruz. Her bir ürün, titizlikle seçilmiş tavukların işlenmesiyle üretilir ve hijyenik koşullarda paketlenir. Müşterilerimize en taze ve sağlıklı ürünleri sunabilmek için sürekli olarak üretim süreçlerimizi gözden geçiriyor ve geliştiriyoruz.",
+      "categoryImgName": "chicken-category.jpg",
       "products": [
         {
-          "title": "Tavuk But",
-          "imgName": "chicken.jpg"
+          "title": "Bütün Pilic",
+          "imgName": "chicken-1.jpg"
         },
         {
-          "title": "Tavuk Kanat",
-          "imgName": "chicken.jpg"
+          "title": "Tavuk But Ürünleri",
+          "imgName": "chicken-2.jpg"
+        },
+        {
+          "title": "Tavuk Göğüs Ürünleri",
+          "imgName": "chicken-3.jpg"
+        },
+        {
+          "title": "Tavuk Kanat Ürünleri",
+          "imgName": "chicken-4.jpg"
+        },
+        {
+          "title": "Tavuk Sakatat Ürünleri",
+          "imgName": "chicken-5.jpg"
+        },
+        {
+          "title": "Tavuk Soslu Ürünler",
+          "imgName": "chicken-6.jpg"
         }
       ]
     },
     {
-      "category": "Hindi",
-      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
-      "categoryImgName": "turkey.jpg",
+      "category": "Hindi Ürünleri",
+      "categoryDesc": "Hindi ürünlerimiz, çeşitli kesimlerde ve özelliklerde sunulmaktadır. İster hindi göğsü, isterse bacak veya kanat gibi parçaları tercih edin, ihtiyaçlarınıza uygun bir ürün bulabileceğinizden emin olabilirsiniz. Ayrıca, marine edilmiş veya özel baharatlarla lezzetlendirilmiş hindi ürünlerimiz de mevcuttur, böylece sofranıza kolaylıkla farklı tatlar ekleyebilirsiniz. Firma olarak, hindi ürünlerimizin kalitesini her zaman en üst düzeyde tutmayı hedefliyoruz. Her bir hindi parçası, özenle seçilmiş hindi yetiştiricilerinden temin edilir ve hijyenik koşullarda işlenir. Ürünlerimizin tazelik ve besin değeri konusunda güvenilir olmasını sağlamak için sıkı kalite kontrol prosedürleri uygulanmaktadır.",
+      "categoryImgName": "turkey-category.jpg",
       "products": [
         {
-          "title": "Hindi But",
-          "imgName": "turkey.jpg"
+          "title": "Bütün Hindi",
+          "imgName": "turkey-1.jpg"
+        },
+        {
+          "title": "Hindi But Ürünleri",
+          "imgName": "turkey-2.jpg"
+        },
+        {
+          "title": "Hindi Göğüs Ürünleri",
+          "imgName": "turkey-3.jpg"
+        },
+        {
+          "title": "Hindi Kanat Ürünleri",
+          "imgName": "turkey-4.jpg"
+        },
+        {
+          "title": "Hindi Sakatat Ürünleri",
+          "imgName": "turkey-5.jpg"
         }
       ]
     },
     {
-      "category": "Et",
-      "categoryDesc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam id exercitationem a provident aliquid rem corrupti voluptatum, cupiditate itaque nemo laudantium vel accusamus rerum aliquam enim molestiae, ut incidunt recusandae?",
-      "categoryImgName": "meat.jpg",
+      "category": "Et Ürünleri",
+      "categoryDesc": "Ürün yelpazemiz, farklı et çeşitlerini ve kesimlerini içerir. Dana eti, sığır eti, kuzu eti ve daha birçok türde et ürünü bulunmaktadır. İster biftek, ister kıyma, isterse kuşbaşı et gibi kesimleri tercih edin, ihtiyaçlarınıza uygun bir ürün bulabileceğinizden emin olabilirsiniz. Firma olarak, et ürünlerimizin kalitesini her zaman en üst düzeyde tutmaya özen gösteriyoruz. Etlerimiz, güvenilir tedarikçilerden temin edilir ve hijyenik koşullarda işlenir. Kalite kontrol ekiplerimiz, ürünlerin tazelik, besin değeri ve güvenlik açısından standartlara uygun olduğundan emin olmak için sürekli olarak çalışır.",
+      "categoryImgName": "meat-category.jpg",
       "products": [
         {
-          "title": "Dana Kaburga",
-          "imgName": "meat.jpg"
+          "title": "Dana Eti Çeşitleri",
+          "imgName": "meat-1.jpg"
+        },
+        {
+          "title": "Kuzu Eti Çeşitleri",
+          "imgName": "meat-2.jpg"
+        },
+        {
+          "title": "Keçi Eti Çeşitleri",
+          "imgName": "meat-3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Deniz Ürünleri",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli deniz mahsullerini içerir. Balık, karides, kalamar, midye, istiridye ve daha fazlası gibi çeşitli deniz ürünleri seçeneklerimiz bulunmaktadır. Her bir ürün, denizden özenle seçilmiş ve hijyenik koşullarda işlenmiştir. Firma olarak, deniz ürünlerimizin kalitesini en üst düzeyde tutmaya özen gösteriyoruz. Taze ve sağlıklı deniz ürünlerini müşterilerimize sunabilmek için sıkı kalite kontrol prosedürleri uygulanmaktadır. Ayrıca, sürdürülebilir deniz ürünleri tedariki konusunda da hassasız, böylece doğal kaynakları korumaya ve gelecek nesillere temiz deniz ürünleri sağlamaya önem veriyoruz.",
+      "categoryImgName": "seafood-category.jpg",
+      "products": [
+        {
+          "title": "Ton Balığı",
+          "imgName": "seafood-1.jpg"
+        },
+        {
+          "title": "Orkinos Balığı",
+          "imgName": "seafood-2.jpg"
+        },
+        {
+          "title": "Somon Balığı",
+          "imgName": "seafood-3.jpg"
+        },
+        {
+          "title": "Karides",
+          "imgName": "seafood-4.jpg"
+        },
+        {
+          "title": "Kalamar",
+          "imgName": "seafood-5.jpg"
+        },
+        {
+          "title": "Yengeç",
+          "imgName": "seafood-6.jpg"
+        },
+        {
+          "title": "Her Türlü Deniz Ürünü Çeşidi",
+          "imgName": "seafood-7.jpg"
+        }
+      ]
+    },
+    {
+      "category": "İleri İşlenmiş Ürünler",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli besin değerlerine sahip ve kullanımı kolay ürünleri içerir. Hazır yemekler, atıştırmalık ürünler, donmuş gıdalar, kurutulmuş meyve ve sebzeler, öğün yerine geçen barlar gibi çeşitli ileri işlenmiş gıda ürünleri seçeneklerimiz bulunmaktadır. Firma olarak, ileri işlenmiş gıda ürünlerimizin kalitesini ve besin değerini en üst düzeyde tutmayı hedefliyoruz. İşlenmiş gıdalarımız, doğal ve sağlıklı bileşenlerden üretilir ve katkı maddesi kullanımı minimum seviyededir. Ayrıca, ürünlerimizin tazelik ve lezzetini korumak için özel ambalajlama ve depolama yöntemleri kullanıyoruz.",
+      "categoryImgName": "processed-category.jpg",
+      "products": [
+        {
+          "title": "Nugget",
+          "imgName": "processed-1.jpg"
+        },
+        {
+          "title": "Burger",
+          "imgName": "processed-2.jpg"
+        },
+        {
+          "title": "Schnitzel",
+          "imgName": "processed-3.jpg"
+        },
+        {
+          "title": "Cordon Bleu",
+          "imgName": "processed-4.jpg"
+        },
+        {
+          "title": "Her Türlü İleri İşlenmiş Ürünler",
+          "imgName": "processed-5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Şarküteri Ürünleri",
+      "categoryDesc": "Ürün yelpazemiz, geniş bir seçenek sunar ve farklı tatlar ve dokular arayan herkes için bir şeyler bulunmaktadır. Sucuk, salam, sosis, pastırma, jambon gibi geleneksel Türk şarküteri ürünlerinin yanı sıra, peynir çeşitleri, zeytin çeşitleri, reçeller, turşular ve daha birçok seçenek de mevcuttur. Firma olarak, şarküteri ürünlerimizin kalitesini en üst seviyede tutmayı hedefliyoruz. Her bir ürün, en taze ve kaliteli malzemeler kullanılarak üretilir ve geleneksel yöntemlerle işlenir. Ayrıca, hijyenik koşullarda üretim ve paketleme yapılarak müşterilerimize güvenilir ürünler sunulur.",
+      "categoryImgName": "delicatessen-category.jpg",
+      "products": [
+        {
+          "title": "Sosis",
+          "imgName": "delicatessen-1.webp"
+        },
+        {
+          "title": "Salam",
+          "imgName": "delicatessen-2.webp"
+        },
+        {
+          "title": "Luncheon Meat",
+          "imgName": "delicatessen-3.webp"
+        }
+      ]
+    },
+    {
+      "category": "Yumurta Ürünleri",
+      "categoryDesc": "Ürün yelpazemiz, yumurtanın çeşitli form ve kullanım şekillerini içerir. Taze yumurtaların yanı sıra, çırpılmış yumurta, pastörize yumurta ürünleri, yumurta tozu, yumurta akı ve yumurta sarısı gibi çeşitli işlenmiş yumurta ürünleri de bulunmaktadır. Bu ürünler, pişirme, pişirme öncesi hazırlık veya diğer gıda ürünlerine katkı maddesi olarak kullanılabilir. Firma olarak, yumurta ürünlerimizin kalitesini her zaman en üst düzeyde tutmayı hedefliyoruz. Taze yumurtalarımız, güvenilir yetiştiricilerden temin edilir ve hijyenik koşullarda işlenir. İşlenmiş yumurta ürünlerimiz de, yüksek kalite standartlarına uygun olarak üretilir ve paketlenir.",
+      "categoryImgName": "eggs-category.jpg",
+      "products": [
+        {
+          "title": "Beyaz Yumurta",
+          "imgName": "eggs-1.webp"
+        },
+        {
+          "title": "Kahverengi Yumurta",
+          "imgName": "eggs-2.webp"
+        }
+      ]
+    },
+    {
+      "category": "Meyveler",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli meyve çeşitlerini içerir. Elma, armut, muz, portakal, çilek, üzüm, mango, ananas ve daha birçok meyve çeşidini müşterilerimize sunuyoruz. Her bir meyve, doğal yetiştirme yöntemleriyle yetiştirilir ve en olgun ve taze halde toplanarak müşterilerimize sunulur. Firma olarak, meyvelerimizin kalitesini en üst seviyede tutmaya özen gösteriyoruz. Yetiştirme ve hasat süreçlerinde sürdürülebilir tarım uygulamaları kullanarak, doğal kaynakları korumaya ve çevreye duyarlı bir şekilde üretim yapmaya önem veriyoruz. Ayrıca, meyvelerin tazelik ve besin değerini korumak için etkili depolama ve taşıma yöntemleri kullanıyoruz.",
+      "categoryImgName": "fruits-category.webp",
+      "products": [
+        {
+          "title": "Böğürtlen",
+          "imgName": "fruits-1.jpg"
+        },
+        {
+          "title": "Ahududu",
+          "imgName": "fruits-2.webp"
+        },
+        {
+          "title": "Kiraz",
+          "imgName": "fruits-3.png"
+        },
+        {
+          "title": "Çilek",
+          "imgName": "fruits-4.webp"
+        },
+        {
+          "title": "Her Türlü Meyve",
+          "imgName": "fruits-5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Sebzeler",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli sebze çeşitlerini içerir. Brokoli, havuç, marul, domates, salatalık, biber, patates, kabak, enginar, ıspanak ve daha birçok sebze çeşidini müşterilerimize sunuyoruz. Her bir sebze, doğal yetiştirme yöntemleriyle, taze ve sağlıklı bir şekilde yetiştirilir. Firma olarak, sebzelerimizin kalitesini en üst seviyede tutmaya özen gösteriyoruz. Sürdürülebilir tarım uygulamaları kullanarak, doğal kaynakları korumaya ve çevreye duyarlı bir şekilde üretim yapmaya önem veriyoruz. Sebzelerimiz, olgunlaştıkları anda toplanır ve titizlikle paketlenerek müşterilere sunulur.",
+      "categoryImgName": "vegetables-category.webp",
+      "products": [
+        {
+          "title": "Brokoli",
+          "imgName": "vegetables-1.webp"
+        },
+        {
+          "title": "Bezelye",
+          "imgName": "vegetables-2.webp"
+        },
+        {
+          "title": "Taze Fasulye",
+          "imgName": "vegetables-3.jpg"
+        },
+        {
+          "title": "Brüksel Lahanası",
+          "imgName": "vegetables-4.jpg"
+        },
+        {
+          "title": "Her Türlü Sebze",
+          "imgName": "vegetables-5.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Konserve Ürünleri",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli gıda maddelerini içerir ve çeşitli ihtiyaçları karşılamak üzere tasarlanmıştır. Sebzeler, meyveler, balıklar, et ürünleri, hazır yemekler ve diğer birçok gıda ürünü konserve formunda sunulmaktadır. Bu ürünler, uzun süre tazeliklerini koruyarak müşterilerimize pratik bir şekilde kullanım imkanı sunar. Firma olarak, konserve ürünlerimizin kalitesini en üst seviyede tutmaya özen gösteriyoruz. En taze ve doğal bileşenler kullanılarak üretilen ürünlerimiz, sıkı kalite kontrol prosedürlerinden geçer ve hijyenik koşullarda paketlenir. Böylece, müşterilerimize güvenilir ve lezzetli ürünler sunabilmekteyiz.",
+      "categoryImgName": "canneds-category.jpg",
+      "products": [
+        {
+          "title": "Balık Konserve Çeşitleri",
+          "imgName": "canneds-1.jpg"
+        },
+        {
+          "title": "Meyve Konserve Çeşitleri",
+          "imgName": "canneds-2.webp"
+        },
+        {
+          "title": "Sebze Konserve Çeşitleri",
+          "imgName": "canneds-3.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Soslar",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli sos çeşitlerini içerir ve farklı damak zevklerine hitap eder. Barbekü sosu, acı sos, teriyaki sos, hardal sos, sarımsak sos, pesto sos, mayonez ve daha birçok sos çeşidi bulunmaktadır. Her bir sos, en taze ve doğal malzemeler kullanılarak üretilir ve zengin bir lezzet profilini hedefler. Firma olarak, soslarımızın kalitesini en üst düzeyde tutmaya özen gösteriyoruz. İyi seçilmiş malzemeler, özenle seçilmiş tarifler ve titizlikle kontrol edilen üretim süreçleri sayesinde müşterilerimize güvenilir ve lezzetli soslar sunabilmekteyiz. Ayrıca, farklı beslenme tercihlerine uygun seçenekler sunarak geniş bir müşteri kitlesini hedefliyoruz, bu nedenle vegan, glutensiz veya düşük sodyum içeren soslar da mevcuttur.",
+      "categoryImgName": "sauces-category.jpg",
+      "products": [
+        {
+          "title": "Ketçap",
+          "imgName": "sauces-1.jpg"
+        },
+        {
+          "title": "Mayonez",
+          "imgName": "sauces-2.jpg"
+        },
+        {
+          "title": "Barbekü Sosu",
+          "imgName": "sauces-3.webp"
+        },
+        {
+          "title": "Cheddar Sos",
+          "imgName": "sauces-4.jpg"
+        },
+        {
+          "title": "Ranch Sos",
+          "imgName": "sauces-5.webp"
+        },
+        {
+          "title": "Her Türlü Sos",
+          "imgName": "sauces-6.jpg"
+        }
+      ]
+    },
+    {
+      "category": "Dondurulmuş Patates",
+      "categoryDesc": "Ürün yelpazemiz, çeşitli dondurulmuş patates çeşitlerini içerir. Dilimlenmiş patatesler, kızartma patatesleri, rendelenmiş patatesler, patates kızartması ve daha birçok seçenek bulunmaktadır. Her bir ürün, taze patateslerin optimum tazelikte dondurularak korunmasıyla üretilir. Firma olarak, dondurulmuş patateslerimizin kalitesini en üst seviyede tutmaya özen gösteriyoruz. Taze ve kaliteli patatesler kullanılarak üretilen ürünlerimiz, hijyenik koşullarda işlenir ve sıkı kalite kontrol prosedürlerinden geçer. Böylece, müşterilerimize güvenilir ve lezzetli ürünler sunabilmekteyiz.",
+      "categoryImgName": "patato-category.webp",
+      "products": [
+        {
+          "title": "Her Türlü Patates Ürünleri",
+          "imgName": "patato-1.jpg"
         }
       ]
     }
