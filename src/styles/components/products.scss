@@ -1,3 +1,12 @@
+@keyframes categoryScrollIcon {
+  from {
+    bottom: 40px;
+  }
+  to {
+    bottom: 15px;
+  }
+}
+
 .products-layout {
   .products {
     padding: 6rem 0;
@@ -44,6 +53,7 @@
         width: 370px;
         min-height: 600px;
         flex-grow: 1;
+        position: relative;
 
         &-title {
           font-size: 24px;
@@ -55,7 +65,7 @@
         &-caregory-list {
           margin-top: 10px;
           overflow-y: auto;
-          max-height: 1200px;
+          max-height: 910px;
 
           li {
             button {
@@ -107,6 +117,19 @@
               margin-bottom: 8px;
             }
           }
+        }
+
+        .category-down-icon {
+          position: absolute;
+          transform: translateX(-50%);
+          bottom: 40px;
+          left: 47%;
+          z-index: 1;
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 44px;
+          filter: drop-shadow(0 0 12px black);
+          animation: categoryScrollIcon 1s ease-in-out infinite alternate;
+          pointer-events: none;
         }
       }
 
@@ -236,5 +259,172 @@
         backdrop-filter: blur(0px);
       }
     }
+  }
+}
+
+@media #{$media-xl} {
+  .products-layout {
+    .products {
+      &-content {
+        &-right-info {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@media #{$media-md} {
+  .products-layout {
+    .products {
+      &-header {
+        h2 {
+          font-size: 66px;
+          line-height: 66px;
+        }
+
+        p {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+
+      &-content {
+        &-sidebar {
+          width: 320px;
+
+          &-title {
+            font-size: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  .products-preview {
+    &-image {
+      height: 230px;
+
+      &-title {
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+
+    &-button {
+      button {
+        font-size: 24px;
+        line-height: 38px;
+        padding: 8px 16px 4px 16px;
+      }
+    }
+  }
+}
+
+@media #{$media-sm} {
+  .products-layout {
+    .products {
+      &-header {
+        flex-direction: column;
+        align-items: center;
+        column-gap: 0;
+        row-gap: 16px;
+        h2 {
+          font-size: 46px;
+          line-height: 46px;
+          border-bottom: 2px solid #0c2d57;
+
+          &::after {
+            display: none;
+          }
+        }
+
+        p {
+          text-align: center;
+        }
+      }
+
+      &-content {
+        flex-direction: column;
+
+        &-sidebar {
+          width: 100%;
+          min-height: auto;
+          &-caregory-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            li {
+              padding: 1px;
+              button {
+                height: 120px;
+                .category-name {
+                  font-size: 14px;
+                  line-height: 18px;
+                  font-weight: normal;
+                  letter-spacing: 0;
+                }
+              }
+
+              &:not(:last-child) {
+                margin-bottom: 0;
+              }
+            }
+          }
+
+          .category-down-icon {
+            display: none;
+          }
+        }
+
+        &-product-list {
+          &-filter {
+            height: 34px;
+
+            button {
+              margin-right: 8px;
+              font-weight: bold;
+            }
+          }
+
+          &-products {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+    }
+  }
+
+  .products-preview {
+    grid-template-columns: repeat(2, 1fr);
+    &-image {
+      height: 170px;
+    }
+
+    &-button {
+      button {
+        font-size: 20px;
+        line-height: 28px;
+        padding: 6px 16px 2px 16px;
+      }
+    }
+  }
+}
+
+@media #{$media-es} {
+  .products-layout {
+    .products {
+      &-content {
+        &-sidebar {
+          &-caregory-list {
+            grid-template-columns: repeat(2, 1fr);
+          }
+        }
+      }
+    }
+  }
+
+  .products-preview {
+    grid-template-columns: repeat(1, 1fr);
   }
 }

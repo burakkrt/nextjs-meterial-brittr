@@ -4,6 +4,7 @@ import ProductCard from '@components/product-card';
 import productDataTR from '@app/product-data/product-data-tr.json';
 import productDataEN from '@app/product-data/product-data-en.json';
 import { IProductsContentProps, IProducts } from './types';
+import ExpandCircleDownIcon from '@mui/icons-material/ExpandCircleDown';
 
 const ProductsContent: React.FC<IProductsContentProps> = ({ locale }) => {
   const [selectCategory, setSelectCategory] = useState<string>('all');
@@ -57,6 +58,7 @@ const ProductsContent: React.FC<IProductsContentProps> = ({ locale }) => {
             </li>
           ))}
         </ul>
+        <ExpandCircleDownIcon className="category-down-icon" />
       </div>
       <div className="products-content-product-list">
         <div className="products-content-product-list-filter">
