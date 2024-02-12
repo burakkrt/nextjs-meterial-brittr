@@ -6,16 +6,19 @@ header {
     }
   }
 
-  .header-navigation-list-mobile {
-  }
+  .header-nav-content {
+    backdrop-filter: blur(4px);
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
 
-  .brand-text {
-    color: inherit;
-    text-decoration: none;
-    font-family: $font-red-hat;
-    font-weight: bold;
-    margin-left: 8px;
-    font-size: 36px;
+    .brand-text {
+      color: inherit;
+      text-decoration: none;
+      font-family: $font-red-hat;
+      font-weight: bold;
+      margin-left: 8px;
+      font-size: 36px;
+    }
   }
 }
 
@@ -25,8 +28,10 @@ header {
 
 @media #{$media-sm} {
   header {
-    .brand-text {
-      font-size: 28px;
+    .header-nav-content {
+      .brand-text {
+        font-size: 28px;
+      }
     }
   }
 }

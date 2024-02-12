@@ -46,7 +46,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
 
   return (
     <AppBar
-      position="static"
+      position="sticky"
       sx={{
         backgroundColor: 'transparent',
         boxShadow: 'none',
@@ -112,7 +112,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
           </Box>
         </Container>
       </Box>
-      <Toolbar disableGutters>
+      <Toolbar disableGutters className="header-nav-content">
         <Container
           maxWidth="xl"
           sx={{
@@ -121,7 +121,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
               padding: '1rem 0',
             },
           }}>
-          <Box sx={{ color: '#191919', display: 'flex' }}>
+          <Box sx={{ color: 'white', display: 'flex' }}>
             <Box
               sx={{
                 flexDirection: 'row',
@@ -256,7 +256,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                       key={index}
                       href={'/' + (locale && locale) + page.path}
                       onClick={() => mobileRightMenu && handlerToggleMenu(false)}
-                      style={{ color: '#352F44' }}
+                      style={{ color: 'white' }}
                       title={page.label}>
                       {page.label.toLocaleUpperCase('tr-TR')}
                     </Link>
@@ -265,7 +265,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
               </Box>
 
               <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-                {<SelectLanguage locale={locale} pathname={pathname} color={'black'} />}
+                {<SelectLanguage locale={locale} pathname={pathname} color={'white'} />}
               </Box>
             </Box>
           </Box>

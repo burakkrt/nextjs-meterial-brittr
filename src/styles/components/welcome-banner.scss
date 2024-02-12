@@ -10,9 +10,10 @@
 
 .welcome-banner {
   position: relative;
-  height: calc(100dvh - (85px + 50px));
+  height: calc(100dvh - 49px);
   width: 100%;
   overflow: hidden;
+  top: -84px;
 
   &::after {
     content: '';
