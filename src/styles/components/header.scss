@@ -8,4 +8,25 @@ header {
 
   .header-navigation-list-mobile {
   }
+
+  .brand-text {
+    color: inherit;
+    text-decoration: none;
+    font-family: $font-red-hat;
+    font-weight: bold;
+    margin-left: 8px;
+    font-size: 36px;
+  }
+}
+
+.mobile-brand-text {
+  color: white !important;
+}
+
+@media #{$media-sm} {
+  header {
+    .brand-text {
+      font-size: 28px;
+    }
+  }
 }

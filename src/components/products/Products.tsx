@@ -43,7 +43,7 @@ const Products: React.FC<IProductsProps> = ({ locale }) => {
   }
 
   return (
-    <div className="products-layout">
+    <div className="products-layout" id="products">
       <Container maxWidth="xl" className="products">
         <div className="products-header">
           <h2>Products</h2>

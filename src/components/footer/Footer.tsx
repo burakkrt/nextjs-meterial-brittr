@@ -13,7 +13,7 @@ import Link from 'next/link';
 const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
   return (
     <footer>
-      <div className="footer">
+      <div className="footer" id="footer">
         <Container maxWidth="xl">
           <Grid container columnSpacing={8}>
             <Grid item xs={12} md={6} className="footer-content">

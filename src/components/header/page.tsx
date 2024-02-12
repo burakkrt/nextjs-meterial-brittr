@@ -41,9 +41,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
   };
 
   function companyLogo() {
-    return (
-      <Image src="/images/Next.js-logo.png" alt="Company Logo" fill quality={100} sizes="56vw" />
-    );
+    return <Image src="/images/logo.png" alt="Company Logo" fill quality={100} sizes="100%" />;
   }
 
   return (
@@ -131,7 +129,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 alignItems: 'center',
                 display: { xs: 'none', md: 'flex' },
               }}>
-              <Box sx={{ width: '68px', height: '48px', position: 'relative' }}>
+              <Box sx={{ width: '64px', height: '48px', position: 'relative' }}>
                 {companyLogo()}
               </Box>
               <Typography
@@ -139,13 +137,8 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 noWrap
                 component="a"
                 href={`/${locale ?? locale}`}
-                sx={{
-                  fontWeight: 900,
-                  color: 'inherit',
-                  textDecoration: 'none',
-                  fontFamily: 'Macondo',
-                }}>
-                FİRMA ADI
+                className="brand-text">
+                Briterrainc
               </Typography>
             </Box>
             <Box
@@ -176,13 +169,8 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   noWrap
                   component="a"
                   href={`/${locale ?? locale}`}
-                  sx={{
-                    fontFamily: 'monospace',
-                    fontWeight: 700,
-                    color: 'inherit',
-                    textDecoration: 'none',
-                  }}>
-                  FİRMA ADI
+                  className="brand-text">
+                  Briterrainc
                 </Typography>
               </Box>
 
@@ -223,13 +211,8 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                         noWrap
                         component="a"
                         href={`/${locale ?? locale}`}
-                        sx={{
-                          fontWeight: 900,
-                          color: 'white',
-                          textDecoration: 'none',
-                          fontFamily: 'Macondo',
-                        }}>
-                        FİRMA ADI
+                        className="mobile-brand-text">
+                        Briterrainc
                       </Typography>
                     </Box>
                     <List sx={{ height: '60%', overflow: 'auto', marginTop: 3 }}>

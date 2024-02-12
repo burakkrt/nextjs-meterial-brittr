@@ -83,15 +83,15 @@
       },
       "page2": {
         "label": "Hakkımızda",
-        "path": ""
+        "path": "#about-us"
       },
       "page3": {
         "label": "Ürünler",
-        "path": ""
+        "path": "#products"
       },
       "page4": {
         "label": "İletişim",
-        "path": ""
+        "path": "#footer"
       }
     },
     "selectLanguage": "Lütfen Dil Seçin"

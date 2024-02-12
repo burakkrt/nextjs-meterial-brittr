@@ -4,7 +4,7 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <div className="about-us">
+    <div className="about-us" id="about-us">
       <Container maxWidth="lg">
         <div className="about-us-content">
           <div className="about-us-content-view">

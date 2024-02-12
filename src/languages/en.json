@@ -83,15 +83,15 @@
       },
       "page2": {
         "label": "About",
-        "path": ""
+        "path": "#about-us"
       },
       "page3": {
         "label": "Product",
-        "path": ""
+        "path": "#products"
       },
       "page4": {
         "label": "Contact",
-        "path": ""
+        "path": "#footer"
       }
     },
     "selectLanguage": "Please Select Language"
