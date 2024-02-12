@@ -9,20 +9,18 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { IFooterProps } from './types';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
+  const t = useTranslations('Footer');
   return (
     <footer>
       <div className="footer" id="footer">
         <Container maxWidth="xl">
           <Grid container columnSpacing={8}>
             <Grid item xs={12} md={6} className="footer-content">
-              <h3 className="footer-content-company-name">Firma Adı</h3>
-              <p className="footer-content-company-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aliquid, quidem est
-                assumenda nulla aliquam labore provident itaque. Impedit dignissimos expedita,
-                veniam vel nobis quos! Ducimus ad nemo et quibusdam.
-              </p>
+              <h3 className="footer-content-company-name">Briterrainc Gıda İç Ve Dış Tic. A.Ş</h3>
+              <p className="footer-content-company-desc">{t('text')}</p>
               <div>
                 <Grid container columnSpacing={4}>
                   <Grid item xs={12} lg={6}>
@@ -30,21 +28,21 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
                       <div className="footer-content-contacts-item">
                         <h5>
                           <EmailIcon />
-                          Mail
+                          {t('mailTitle')}
                         </h5>
                         <span>info@firmadı.com</span>
                       </div>
                       <div className="footer-content-contacts-item">
                         <h5>
                           <LocalPhoneIcon />
-                          Phone
+                          {t('phoneTitle')}
                         </h5>
                         <span>+212 000 00 00</span>
                       </div>
                       <div className="footer-content-contacts-item">
                         <h5>
                           <FmdGoodIcon />
-                          Adress
+                          {t('addressTitle')}
                         </h5>
                         <span>
                           Ataköy 7-8-9-10. Kısım Mah. Çobançeşme E-5 Yanyol Cad Avrupa, 34000
@@ -61,7 +59,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
                       </div>
                       <div className="footer-content-socials-item">
                         <InstagramIcon />
-                        <span>İnstagram</span>
+                        <span>Instagram</span>
                       </div>
                       <div className="footer-content-socials-item">
                         <FacebookIcon />
@@ -87,7 +85,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
               ))}
             </Grid>
             <Grid item xs={12} sm={6} className="footer-bottom-copyright">
-              {new Date().getFullYear()} © Firma Adı | Tüm Hakları Saklıdır.
+              {new Date().getFullYear()} © Briterrainc | {t('copyright')}
             </Grid>
           </Grid>
         </Container>

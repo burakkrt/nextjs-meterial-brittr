@@ -8,10 +8,12 @@ import productDataEN from '@app/product-data/product-data-en.json';
 import { IProducts } from '@components/products-content/types';
 import Image from 'next/image';
 import dynamic from 'next/dynamic';
+import { useTranslations } from 'next-intl';
 
 const LazyProducts = dynamic(() => import('@/components/products-content'));
 
 const Products: React.FC<IProductsProps> = ({ locale }) => {
+  const t = useTranslations('Products');
   const [data, setData] = useState<IProducts>(locale === 'tr' ? productDataTR : productDataEN);
   const [showProducts, setShowProducts] = useState<boolean>(false);
 
@@ -34,7 +36,7 @@ const Products: React.FC<IProductsProps> = ({ locale }) => {
           ))}
           <div className="products-preview-button">
             <button type="button" onClick={() => setShowProducts(true)}>
-              Tümünü Göster
+              {t('allView')}
             </button>
           </div>
         </div>
@@ -46,12 +48,8 @@ const Products: React.FC<IProductsProps> = ({ locale }) => {
     <div className="products-layout" id="products">
       <Container maxWidth="xl" className="products">
         <div className="products-header">
-          <h2>Products</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur, alias.
-            Temporibus nostrum aliquid nihil voluptatum id, iure maiores dolores iusto molestiae
-            placeat odit perspiciatis.
-          </p>
+          <h2>{t('title')}</h2>
+          <p>{t('text')}</p>
         </div>
         {!showProducts ? renderPreviewProducts() : <LazyProducts locale={locale} />}
       </Container>

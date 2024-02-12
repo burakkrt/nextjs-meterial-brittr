@@ -14,59 +14,14 @@
       }
     },
     "Home": {
-      "title": "Firma Adı",
+      "title": "Briterrainc Gıda İç Ve Dış Tic. A.Ş",
       "description": "This is an English page.",
       "keywords": "keywords1, keywords2",
       "metadataBase": {
         "baseUrl": "http://localhost:3000"
       },
       "openGraph": {
-        "title": "Home Page",
-        "description": "...",
-        "url": "...",
-        "siteName": "...",
-        "imagesAlt": "..."
-      }
-    },
-    "AboutUs": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
-      "metadataBase": {
-        "baseUrl": "http://localhost:3000"
-      },
-      "openGraph": {
-        "title": "Anasayfa",
-        "description": "...",
-        "url": "...",
-        "siteName": "...",
-        "imagesAlt": "..."
-      }
-    },
-    "Contact": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
-      "metadataBase": {
-        "baseUrl": "http://localhost:3000"
-      },
-      "openGraph": {
-        "title": "Anasayfa",
-        "description": "...",
-        "url": "...",
-        "siteName": "...",
-        "imagesAlt": "..."
-      }
-    },
-    "Products": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
-      "metadataBase": {
-        "baseUrl": "http://localhost:3000"
-      },
-      "openGraph": {
-        "title": "Anasayfa",
+        "title": "Homepage",
         "description": "...",
         "url": "...",
         "siteName": "...",
@@ -95,5 +50,29 @@
       }
     },
     "selectLanguage": "Please Select Language"
+  },
+  "Welcome": {
+    "videoTitle": "Lorem ipsum dolor sit amet.",
+    "videoDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. "
+  },
+  "AboutUs": {
+    "title": "Lorem ipsum dolor sit amet.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex. Nullam ultricies, libero ut sagittis luctus, massa eros auctor sapien, facilisis ultrices libero urna quis diam. Donec sed nisi ut erat hendrerit lobortis. Quisque pellentesque iaculis fringilla. Integer scelerisque lectus quis molestie gravida. Cras tempor pretium nulla, id imperdiet odio maximus id. "
+  },
+  "Products": {
+    "title": "Products",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex.",
+    "allView": "View All",
+    "categoryTitle": "Product Category",
+    "allCategoryTitle": "All Products",
+    "allCategoryDesc": "Our company aims to provide the highest quality and most delicious food products to our customers, offering them healthy and enjoyable dining experiences. Our extensive range of products offers a variety of flavors and meets various nutritional needs. Our fruits and vegetables are obtained through fresh and natural cultivation methods, ensuring they are rich in vitamins, minerals, and fiber. Fresh seafood includes high-quality fish and shellfish, serving as a healthy source of protein. Our meat products contain the freshest and highest quality meats, available in various cuts and processing methods. Additionally, we offer a variety of options such as deli products, frozen foods, canned goods, sauces, frozen potatoes, egg products, and many more. Each product is produced according to the highest quality standards and processed under hygienic conditions.",
+    "clearFilterText": "Show all products"
+  },
+  "Footer": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex.",
+    "mailTitle": "Mail",
+    "phoneTitle": "Phone",
+    "addressTitle": "Address",
+    "copyright": "All rights reserved."
   }
 }

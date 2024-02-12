@@ -14,52 +14,7 @@
       }
     },
     "Home": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
-      "metadataBase": {
-        "baseUrl": "http://localhost:3000"
-      },
-      "openGraph": {
-        "title": "Anasayfa",
-        "description": "...",
-        "url": "...",
-        "siteName": "...",
-        "imagesAlt": "..."
-      }
-    },
-    "AboutUs": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
-      "metadataBase": {
-        "baseUrl": "http://localhost:3000"
-      },
-      "openGraph": {
-        "title": "Anasayfa",
-        "description": "...",
-        "url": "...",
-        "siteName": "...",
-        "imagesAlt": "..."
-      }
-    },
-    "Contact": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
-      "metadataBase": {
-        "baseUrl": "http://localhost:3000"
-      },
-      "openGraph": {
-        "title": "Anasayfa",
-        "description": "...",
-        "url": "...",
-        "siteName": "...",
-        "imagesAlt": "..."
-      }
-    },
-    "Products": {
-      "title": "Firma Adı",
+      "title": "Briterrainc Gıda İç Ve Dış Tic. A.Ş",
       "description": "Bu türkçe bir sayfadır.",
       "keywords": "kelime1, kelime2",
       "metadataBase": {
@@ -95,5 +50,29 @@
       }
     },
     "selectLanguage": "Lütfen Dil Seçin"
+  },
+  "Welcome": {
+    "videoTitle": "Lorem ipsum dolor sit amet.",
+    "videoDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. "
+  },
+  "AboutUs": {
+    "title": "Lorem ipsum dolor sit amet.",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex. Nullam ultricies, libero ut sagittis luctus, massa eros auctor sapien, facilisis ultrices libero urna quis diam. Donec sed nisi ut erat hendrerit lobortis. Quisque pellentesque iaculis fringilla. Integer scelerisque lectus quis molestie gravida. Cras tempor pretium nulla, id imperdiet odio maximus id. "
+  },
+  "Products": {
+    "title": "Ürünler",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex.",
+    "allView": "Tümünü Göster",
+    "categoryTitle": "Ürün Kategorileri",
+    "allCategoryTitle": "Tüm Ürünler",
+    "allCategoryDesc": "Firmamız, en kaliteli ve lezzetli gıda ürünlerini müşterilerimize sunarak sağlıklı ve keyifli yemek deneyimleri yaşatmayı amaçlamaktadır. Geniş ürün yelpazemiz, çeşitli damak zevklerine ve beslenme ihtiyaçlarına uygun seçenekler sunar. Meyve ve sebzelerimiz, taze ve doğal yetiştirme yöntemleriyle elde edilir ve vitamin, mineral ve lif bakımından zengindir. Taze deniz ürünleri, yüksek kaliteli balıkları ve kabuklu deniz hayvanlarını içerir ve sağlıklı protein kaynağıdır. Et ürünlerimiz, en taze ve kaliteli etleri içerir ve çeşitli kesimlerde ve işleme şekillerinde sunulur. Ayrıca, şarküteri ürünleri, dondurulmuş gıdalar, konserve ürünler, soslar, dondurulmuş patatesler, yumurta ürünleri ve daha birçok seçenek de mevcuttur. Her bir ürün, en iyi kalite standartlarına uygun olarak üretilir ve hijyenik koşullarda işlenir.",
+    "clearFilterText": "Tüm ürünleri göster"
+  },
+  "Footer": {
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex.",
+    "mailTitle": "Mail",
+    "phoneTitle": "Telefon",
+    "addressTitle": "Adres",
+    "copyright": "Tüm Hakları Saklıdır."
   }
 }
