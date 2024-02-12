@@ -53,7 +53,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
         backgroundColor: 'transparent',
         boxShadow: 'none',
       }}>
-      <Box sx={{ backgroundColor: '#B31312' }}>
+      <Box sx={{ backgroundColor: '#001B79' }}>
         <Container maxWidth="xl">
           <Box
             sx={{
@@ -201,7 +201,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 <Drawer anchor="right" open={mobileRightMenu} onClose={handlerToggleMenu(false)}>
                   <Box
                     className="header-navigation-list-mobile"
-                    sx={{ width: 250, backgroundColor: '#BF3131', height: '100%' }}
+                    sx={{ width: 250, backgroundColor: '#001B79', height: '100%' }}
                     role="presentation"
                     onClick={handlerToggleMenu(false)}
                     onKeyDown={handlerToggleMenu(false)}>
