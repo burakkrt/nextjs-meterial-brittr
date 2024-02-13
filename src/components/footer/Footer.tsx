@@ -19,7 +19,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
         <Container maxWidth="xl">
           <Grid container columnSpacing={8}>
             <Grid item xs={12} md={6} className="footer-content">
-              <h3 className="footer-content-company-name">Briterrainc Gıda İç Ve Dış Tic. A.Ş</h3>
+              <h3 className="footer-content-company-name">Firma Adı</h3>
               <p className="footer-content-company-desc">{t('text')}</p>
               <div>
                 <Grid container columnSpacing={4}>

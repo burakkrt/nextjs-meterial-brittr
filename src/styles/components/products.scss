@@ -9,7 +9,7 @@
 
 .products-layout {
   .products {
-    padding: 6rem 0;
+    padding-top: 10rem;
 
     &-header {
       display: flex;
@@ -17,12 +17,12 @@
       justify-content: center;
       align-items: flex-start;
       column-gap: 8px;
-      margin-bottom: 4rem;
+      margin-bottom: 6rem;
 
       h2 {
         font-family: $font-pp-neue;
-        font-size: 98px;
-        line-height: 98px;
+        font-size: 78px;
+        line-height: 78px;
         text-transform: uppercase;
         color: #0c2d57;
         display: flex;
@@ -40,6 +40,7 @@
         font-size: 18px;
         line-height: 22px;
         color: rgba(0, 0, 0, 0.6);
+        padding-left: 14px;
       }
     }
 
@@ -324,14 +325,17 @@
 @media #{$media-sm} {
   .products-layout {
     .products {
+      padding-top: 4rem;
+
       &-header {
         flex-direction: column;
         align-items: center;
         column-gap: 0;
         row-gap: 16px;
+        margin-bottom: 4rem;
         h2 {
-          font-size: 46px;
-          line-height: 46px;
+          font-size: 32px;
+          line-height: 32px;
           border-bottom: 2px solid #0c2d57;
 
           &::after {

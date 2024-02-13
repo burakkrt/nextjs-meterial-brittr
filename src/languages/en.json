@@ -14,7 +14,7 @@
       }
     },
     "Home": {
-      "title": "Briterrainc Gıda İç Ve Dış Tic. A.Ş",
+      "title": "Firma Adı",
       "description": "This is an English page.",
       "keywords": "keywords1, keywords2",
       "metadataBase": {
@@ -31,7 +31,7 @@
   },
   "Header": {
     "pages": {
-      "pageCount": "4",
+      "pageCount": "5",
       "page1": {
         "label": "Home",
         "path": ""
@@ -41,10 +41,14 @@
         "path": "#about-us"
       },
       "page3": {
+        "label": "Global",
+        "path": "#globalMap"
+      },
+      "page4": {
         "label": "Product",
         "path": "#products"
       },
-      "page4": {
+      "page5": {
         "label": "Contact",
         "path": "#footer"
       }
@@ -74,5 +78,9 @@
     "phoneTitle": "Phone",
     "addressTitle": "Address",
     "copyright": "All rights reserved."
+  },
+  "GlobalMap": {
+    "title": "GLOBAL MAP",
+    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum odit officiis nihil ad voluptatum voluptatem veniam culpa nam quae dolorum quisquam sapiente ullam autem a, facilis architecto sit eos sint."
   }
 }
