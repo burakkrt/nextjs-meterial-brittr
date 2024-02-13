@@ -186,12 +186,12 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
               {/* Only Mobile Visible */}
               <Box sx={{ display: { xs: 'flex', md: 'none' }, position: 'relative' }}>
                 <IconButton
+                  className="hamburger-menu"
                   size="large"
                   aria-label="account of current user"
                   aria-controls="menu-appbar"
                   aria-haspopup="true"
-                  onClick={handlerToggleMenu(true)}
-                  color="inherit">
+                  onClick={handlerToggleMenu(true)}>
                   <MenuIcon />
                 </IconButton>
 
