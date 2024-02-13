@@ -4,8 +4,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 const ReferancesSlick = () => {
+  const t = useTranslations('Referances');
   const settings = {
     dots: false,
     infinite: true,
@@ -129,7 +131,7 @@ const ReferancesSlick = () => {
         </div>
       </Slider>
       <div className="slider-container-title">
-        <span>Our Solution Partners</span>
+        <span>{t('title')}</span>
       </div>
     </div>
   );
