@@ -106,6 +106,11 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 </Typography>
               </Box>
             </Box>
+            <Box sx={{ display: { xs: 'none', md: 'block' } }}>
+              <Typography component="span" className="header-top-brand">
+                Britterra INC
+              </Typography>
+            </Box>
             <Box sx={{ display: { sm: 'block', md: 'none' } }}>
               {<SelectLanguage locale={locale} pathname={pathname} color={'white'} />}
             </Box>
@@ -138,7 +143,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 component="a"
                 href={`/${locale ?? locale}`}
                 className="brand-text">
-                Briterrainc
+                Briterra INC
               </Typography>
             </Box>
             <Box
