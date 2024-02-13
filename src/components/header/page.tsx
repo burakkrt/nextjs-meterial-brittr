@@ -259,18 +259,21 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   },
                 }}
                 className="header-navigation-list">
-                {pages.map((page, index) => (
-                  <Typography key={index} variant="body1" noWrap component="span">
-                    <Link
-                      className="header-navigation-list-text"
-                      key={index}
-                      href={locale + '/' + page.path}
-                      onClick={() => mobileRightMenu && handlerToggleMenu(false)}
-                      title={page.label}>
-                      {page.label.toLocaleUpperCase('tr-TR')}
-                    </Link>
-                  </Typography>
-                ))}
+                {pages.map((page, index) => {
+                  const link: string = (!pathname.includes(locale) ? locale : '') + page.path;
+                  return (
+                    <Typography key={index} variant="body1" noWrap component="span">
+                      <Link
+                        className="header-navigation-list-text"
+                        key={index}
+                        href={link}
+                        onClick={() => mobileRightMenu && handlerToggleMenu(false)}
+                        title={page.label}>
+                        {page.label.toLocaleUpperCase('tr-TR')}
+                      </Link>
+                    </Typography>
+                  );
+                })}
               </Box>
 
               <Box sx={{ display: { xs: 'none', md: 'block' } }}>
