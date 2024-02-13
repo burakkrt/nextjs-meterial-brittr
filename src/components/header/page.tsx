@@ -179,7 +179,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   component="a"
                   href={`/${locale ?? locale}`}
                   className="brand-text">
-                  Briterrainc
+                  Briterra INC
                 </Typography>
               </Box>
 
@@ -221,7 +221,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                         component="a"
                         href={`/${locale ?? locale}`}
                         className="mobile-brand-text">
-                        Briterrainc
+                        Briterra INC
                       </Typography>
                     </Box>
                     <List sx={{ height: '60%', overflow: 'auto', marginTop: 3 }}>
