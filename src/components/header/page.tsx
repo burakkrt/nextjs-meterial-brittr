@@ -264,7 +264,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                     <Link
                       className="header-navigation-list-text"
                       key={index}
-                      href={page.path}
+                      href={'/' + page.path}
                       onClick={() => mobileRightMenu && handlerToggleMenu(false)}
                       title={page.label}>
                       {page.label.toLocaleUpperCase('tr-TR')}
