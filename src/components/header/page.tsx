@@ -260,7 +260,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 }}
                 className="header-navigation-list">
                 {pages.map((page, index) => {
-                  const link: string = (!pathname.includes(locale) ? locale : '') + page.path;
+                  const link: string = (!pathname.includes(locale) ? locale : '') + '/' + page.path;
                   return (
                     <Typography key={index} variant="body1" noWrap component="span">
                       <Link
