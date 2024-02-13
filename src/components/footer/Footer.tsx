@@ -1,4 +1,4 @@
-import { Container, Grid } from '@mui/material';
+import { Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 import EmailIcon from '@mui/icons-material/Email';
@@ -19,7 +19,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
         <Container maxWidth="xl">
           <Grid container columnSpacing={8}>
             <Grid item xs={12} md={6} className="footer-content">
-              <h3 className="footer-content-company-name">Firma Adı</h3>
+              <h3 className="footer-content-company-name">{t('brandName')}</h3>
               <p className="footer-content-company-desc">{t('text')}</p>
               <div>
                 <Grid container columnSpacing={4}>
@@ -30,14 +30,27 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
                           <EmailIcon />
                           {t('mailTitle')}
                         </h5>
-                        <span>info@firmadı.com</span>
+                        <Typography
+                          component="a"
+                          href="mailto:info@britterrainc.com"
+                          color="white"
+                          sx={{ ':hover': { textDecoration: 'underline' } }}
+                          variant="subtitle2">
+                          info@britterrainc.com
+                        </Typography>
                       </div>
                       <div className="footer-content-contacts-item">
                         <h5>
                           <LocalPhoneIcon />
                           {t('phoneTitle')}
                         </h5>
-                        <span>+212 000 00 00</span>
+                        <Typography
+                          component="a"
+                          href="tel:+0212 458 02 09"
+                          variant="subtitle2"
+                          color="white">
+                          +90 212 458 02 09
+                        </Typography>
                       </div>
                       <div className="footer-content-contacts-item">
                         <h5>
@@ -45,8 +58,8 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
                           {t('addressTitle')}
                         </h5>
                         <span>
-                          Ataköy 7-8-9-10. Kısım Mah. Çobançeşme E-5 Yanyol Cad Avrupa, 34000
-                          Bakırköy/İstanbul
+                          Avrupa Konutları Ataköy 7-8-9-10. Kısım Mah Çobançeşme E-5 Yan Yol Cad.1
+                          No: 8/1 D:74 Bakırköy-İstanbul-Türkiye
                         </span>
                       </div>
                     </div>
@@ -85,7 +98,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
               ))}
             </Grid>
             <Grid item xs={12} sm={6} className="footer-bottom-copyright">
-              {new Date().getFullYear()} © Briterrainc | {t('copyright')}
+              {new Date().getFullYear()} © Briterra INC | {t('copyright')}
             </Grid>
           </Grid>
         </Container>

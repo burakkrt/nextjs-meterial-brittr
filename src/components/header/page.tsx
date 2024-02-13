@@ -83,8 +83,12 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   gap: '0.5rem',
                 }}>
                 <LocalPhoneIcon />
-                <Typography component="a" href="/" variant="subtitle2" color="white">
-                  +90 555 555 55 55
+                <Typography
+                  component="a"
+                  href="tel:+0212 458 02 09"
+                  variant="subtitle2"
+                  color="white">
+                  +90 212 458 02 09
                 </Typography>
               </Box>
               <Box
@@ -98,11 +102,11 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 <EmailIcon />
                 <Typography
                   component="a"
-                  href="/"
+                  href="mailto:info@britterrainc.com"
                   color="white"
                   sx={{ ':hover': { textDecoration: 'underline' } }}
                   variant="subtitle2">
-                  info@firmadi.com.tr
+                  info@britterrainc.com
                 </Typography>
               </Box>
             </Box>
