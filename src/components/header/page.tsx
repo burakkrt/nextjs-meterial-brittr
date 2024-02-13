@@ -102,17 +102,17 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 <EmailIcon />
                 <Typography
                   component="a"
-                  href="mailto:info@britterrainc.com"
+                  href="mailto:info@briterrainc.com"
                   color="white"
                   sx={{ ':hover': { textDecoration: 'underline' } }}
                   variant="subtitle2">
-                  info@britterrainc.com
+                  info@briterrainc.com
                 </Typography>
               </Box>
             </Box>
             <Box sx={{ display: { xs: 'none', md: 'block' } }}>
               <Typography component="span" className="header-top-brand">
-                Britterra INC
+                Briterra INC
               </Typography>
             </Box>
             <Box sx={{ display: { sm: 'block', md: 'none' } }}>
@@ -147,7 +147,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 component="a"
                 href={`/${locale ?? locale}`}
                 className="brand-text">
-                Briterra INC
+                briterra
               </Typography>
             </Box>
             <Box
@@ -179,7 +179,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   component="a"
                   href={`/${locale ?? locale}`}
                   className="brand-text">
-                  Briterra INC
+                  briterra
                 </Typography>
               </Box>
 
@@ -266,7 +266,6 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                       key={index}
                       href={'/' + (locale && locale) + page.path}
                       onClick={() => mobileRightMenu && handlerToggleMenu(false)}
-                      style={{ color: 'white' }}
                       title={page.label}>
                       {page.label.toLocaleUpperCase('tr-TR')}
                     </Link>
@@ -275,7 +274,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
               </Box>
 
               <Box sx={{ display: { xs: 'none', md: 'block' } }}>
-                {<SelectLanguage locale={locale} pathname={pathname} color={'white'} />}
+                {<SelectLanguage locale={locale} pathname={pathname} color={'black'} />}
               </Box>
             </Box>
           </Box>

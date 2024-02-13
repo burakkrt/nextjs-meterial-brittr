@@ -32,11 +32,11 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
                         </h5>
                         <Typography
                           component="a"
-                          href="mailto:info@britterrainc.com"
+                          href="mailto:info@briterrainc.com"
                           color="white"
                           sx={{ ':hover': { textDecoration: 'underline' } }}
                           variant="subtitle2">
-                          info@britterrainc.com
+                          info@briterrainc.com
                         </Typography>
                       </div>
                       <div className="footer-content-contacts-item">
