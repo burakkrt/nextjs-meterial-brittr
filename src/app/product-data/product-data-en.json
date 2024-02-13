@@ -6,28 +6,72 @@
       "categoryImgName": "chicken-category.jpg",
       "products": [
         {
-          "title": "Whole Chicken",
+          "title": "Frozen Whole Chicken",
+          "imgName": "chicken-17.jpg"
+        },
+        {
+          "title": "Frozen Chicken Leg Quarter",
           "imgName": "chicken-1.jpg"
         },
         {
-          "title": "Chicken Leg Products",
+          "title": "Frozen Chicken Thigh Meat Skewered",
           "imgName": "chicken-2.jpg"
         },
         {
-          "title": "Chicken Breast Products",
+          "title": "Frozen Chicken Leg Cubes",
           "imgName": "chicken-3.jpg"
         },
         {
-          "title": "Chicken Wing Products",
+          "title": "Frozen Chicken Drumstick",
           "imgName": "chicken-4.jpg"
         },
         {
-          "title": "Chicken Giblet Products",
+          "title": "Frozen Chicken Breast (Without Backbone)",
           "imgName": "chicken-5.jpg"
         },
         {
-          "title": "Chicken Sauced Products",
+          "title": "Frozen Chicken Breast Butterfly Fillet Boneless Skinless",
           "imgName": "chicken-6.jpg"
+        },
+        {
+          "title": "Frozen Chicken Breast Single Fillet",
+          "imgName": "chicken-7.jpg"
+        },
+        {
+          "title": "Frozen Chicken Breast Meat Skewered",
+          "imgName": "chicken-8.jpg"
+        },
+        {
+          "title": "Frozen Chicken Tendorlain (Inner Fillet)",
+          "imgName": "chicken-9.jpg"
+        },
+        {
+          "title": "Frozen Chicken Breast Butterfly Fillet with Skin",
+          "imgName": "chicken-10.jpg"
+        },
+        {
+          "title": "Frozen Chicken Breast Cubes",
+          "imgName": "chicken-11.jpg"
+        },
+        {
+          "title": "Frozen Chicken Whole Wing (Three Joint)",
+          "imgName": "chicken-12.jpg"
+        },
+        {
+          "title": "Frozen Chicken Wing Tipless (two Joint)",
+          "imgName": "chicken-13.jpg"
+        },
+        {
+          "title": "Frozen Chicken Wing Mid Joint",
+          "imgName": "chicken-14.jpg"
+        },
+        {
+          "title": "Frozen Chicken Lower Back",
+          "imgName": "chicken-15.jpg"
+        },
+        {
+          "title": "Frozen Chicken Upper back",
+          "imgName": "chicken-16.jpg"
         }
       ]
     },
@@ -41,20 +85,68 @@
           "imgName": "turkey-1.jpg"
         },
         {
-          "title": "Turkey Leg Products",
+          "title": "Drumstick Bulk",
           "imgName": "turkey-2.jpg"
         },
         {
-          "title": "Turkey Breast Products",
+          "title": "Drumstick But Kemiksiz",
           "imgName": "turkey-3.jpg"
         },
         {
-          "title": "Turkey Wing Products",
+          "title": "Osso Bucco Bulk",
           "imgName": "turkey-4.jpg"
         },
         {
-          "title": "Turkey Giblet Products",
+          "title": "Whole Leg Bulk",
           "imgName": "turkey-5.jpg"
+        },
+        {
+          "title": "Cube Thigh Bulk",
+          "imgName": "turkey-6.jpg"
+        },
+        {
+          "title": "Skewered Cube Thigh Bulk",
+          "imgName": "turkey-7.jpg"
+        },
+        {
+          "title": "Steak Sliced Thigh Bulk",
+          "imgName": "turkey-8.jpg"
+        },
+        {
+          "title": "Upper Thigh Skin On Bulk",
+          "imgName": "turkey-9.jpg"
+        },
+        {
+          "title": "Inner Fillet Bulk",
+          "imgName": "turkey-10.jpg"
+        },
+        {
+          "title": "Skewered Cube Breast Bulk",
+          "imgName": "turkey-11.jpg"
+        },
+        {
+          "title": "Sliced Breast Bulk",
+          "imgName": "turkey-12.jpg"
+        },
+        {
+          "title": "Mid Wing Bulk",
+          "imgName": "turkey-13.jpg"
+        },
+        {
+          "title": "Sliced Wing Meat Bulk",
+          "imgName": "turkey-14.jpg"
+        },
+        {
+          "title": "Liver In bulk",
+          "imgName": "turkey-15.jpg"
+        },
+        {
+          "title": "Neck Bulk",
+          "imgName": "turkey-16.jpg"
+        },
+        {
+          "title": "Heart And Liver Bulk",
+          "imgName": "turkey-17.jpg"
         }
       ]
     },
