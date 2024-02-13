@@ -85,7 +85,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
             </Grid>
             <Grid item xs={12} md={6} className="footer-map">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d192697.8885068325!2d28.847376128934485!3d41.00546324248513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa7040068086b%3A0xe1ccfe98bc01b0d0!2zxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1707211656489!5m2!1str!2str"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3011.5146785383226!2d28.827325962599094!3d40.992106871233446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa36459f2959f%3A0xe457932c06176d29!2sAvrupa%20Residence%20%26%20Office%20Atak%C3%B6y!5e0!3m2!1str!2str!4v1707847180681!5m2!1str!2str"
                 referrerPolicy="no-referrer-when-downgrade"></iframe>
             </Grid>
           </Grid>
