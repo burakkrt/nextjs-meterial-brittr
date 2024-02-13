@@ -38,6 +38,20 @@
       left: -35px;
     }
   }
+
+  &-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    span {
+      font-family: $font-red-hat;
+      font-size: 54px;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
 }
 
 @media #{$media-md} {
@@ -54,7 +68,7 @@
 
 @media #{$media-sm} {
   .slider-container {
-    padding: 24px 0;
+    padding: 0;
     .slick-item {
       .ref-image {
         width: 120px;
@@ -64,6 +78,14 @@
 
     .slick-arrow {
       display: none;
+    }
+
+    &-title {
+      margin-top: 4rem;
+      span {
+        font-size: 24px;
+        font-weight: bold;
+      }
     }
   }
 }

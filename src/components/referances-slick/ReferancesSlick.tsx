@@ -128,6 +128,9 @@ const ReferancesSlick = () => {
           </div>
         </div>
       </Slider>
+      <div className="slider-container-title">
+        <span>Our Solution Partners</span>
+      </div>
     </div>
   );
 };
