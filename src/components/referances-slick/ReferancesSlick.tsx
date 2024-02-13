@@ -94,6 +94,11 @@ const ReferancesSlick = () => {
         </div>
         <div className="slick-item">
           <div className="ref-image">
+            <Image src="/images/referances/ref-11.png" alt="Referance Logo" fill sizes="100%" />
+          </div>
+        </div>
+        <div className="slick-item">
+          <div className="ref-image">
             <Image src="/images/referances/ref-5.jpg" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
