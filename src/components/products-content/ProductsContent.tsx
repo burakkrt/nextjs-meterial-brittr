@@ -9,9 +9,11 @@ import { useTranslations } from 'next-intl';
 
 const ProductsContent: React.FC<IProductsContentProps> = ({ locale }) => {
   const t = useTranslations('Products');
-  const [selectCategory, setSelectCategory] = useState<string>('all');
   const [products, setProducts] = useState<IProducts>(
     locale === 'tr' ? productDataTR : productDataEN
+  );
+  const [selectCategory, setSelectCategory] = useState<string>(
+    products?.data[0]?.category || 'all'
   );
 
   const allCategoryDesc = t('allCategoryDesc');

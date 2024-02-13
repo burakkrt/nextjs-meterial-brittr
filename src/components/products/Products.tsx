@@ -15,7 +15,7 @@ const LazyProducts = dynamic(() => import('@/components/products-content'));
 const Products: React.FC<IProductsProps> = ({ locale }) => {
   const t = useTranslations('Products');
   const [data, setData] = useState<IProducts>(locale === 'tr' ? productDataTR : productDataEN);
-  const [showProducts, setShowProducts] = useState<boolean>(false);
+  const [showProducts, setShowProducts] = useState<boolean>(true);
 
   function renderPreviewProducts() {
     return (

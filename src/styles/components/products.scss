@@ -110,6 +110,7 @@
                   background-color: rgba(0, 0, 0, 0.4);
                   backdrop-filter: blur(0px);
                   color: #e8c872;
+                  border: 4px solid #fde767;
                 }
               }
             }
@@ -126,7 +127,7 @@
           bottom: 40px;
           left: 47%;
           z-index: 1;
-          color: rgba(255, 255, 255, 0.5);
+          color: #fde767;
           font-size: 44px;
           filter: drop-shadow(0 0 12px black);
           animation: categoryScrollIcon 1s ease-in-out infinite alternate;
