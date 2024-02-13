@@ -6,13 +6,13 @@ export default createMiddleware({
   locales,
 
   // Used when no locale matches
-  defaultLocale: 'tr',
+  defaultLocale: 'en',
 
-  // Auto langueage
-  localeDetection: true,
+  // default browser lang select
+  localeDetection: false,
 });
 
 export const config = {
   // Match only internationalized pathnames
-  matcher: ['/', '/(tr|en)/:path*'],
+  matcher: ['/', '/(en|tr)/:path*'],
 };
