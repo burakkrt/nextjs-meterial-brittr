@@ -83,7 +83,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   gap: '0.5rem',
                 }}>
                 <LocalPhoneIcon />
-                <Typography variant="subtitle2" component="span">
+                <Typography component="a" href="/" variant="subtitle2" color="white">
                   +90 555 555 55 55
                 </Typography>
               </Box>
@@ -245,7 +245,8 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                   display: { xs: 'none', md: 'flex' },
                   gap: 3,
                   [theme.breakpoints.up('sm')]: {
-                    justifyContent: 'center',
+                    justifyContent: 'flex-end',
+                    marginRight: 14,
                   },
                 }}
                 className="header-navigation-list">
