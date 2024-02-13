@@ -138,7 +138,7 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 alignItems: 'center',
                 display: { xs: 'none', md: 'flex' },
               }}>
-              <Box sx={{ width: '64px', height: '48px', position: 'relative' }}>
+              <Box sx={{ width: '60px', height: '44px', position: 'relative' }}>
                 {companyLogo()}
               </Box>
               <Typography
