@@ -6,15 +6,17 @@ import { useTranslations } from 'next-intl';
 const WelcomeBanner = () => {
   const t = useTranslations('Welcome');
 
-  const controls = {
+  const controlOptions = {
+    playsinline: true,
     autoPlay: true,
     muted: true,
     loop: true,
+    controls: false,
   };
 
   return (
     <div className="welcome-banner" id="welcomeBanner">
-      <video {...controls} className="welcome-banner-video">
+      <video {...controlOptions} className="welcome-banner-video">
         <source src="videos/welcome-video-back.mp4" type="video/mp4" />
       </video>
       <div className="welcome-banner-content">
