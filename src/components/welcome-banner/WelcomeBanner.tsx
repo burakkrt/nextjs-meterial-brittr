@@ -13,7 +13,7 @@ const WelcomeBanner = () => {
   };
 
   return (
-    <div className="welcome-banner">
+    <div className="welcome-banner" id="welcomeBanner">
       <video {...controls} className="welcome-banner-video">
         <source src="videos/welcome-video-back.mp4" type="video/mp4" />
       </video>

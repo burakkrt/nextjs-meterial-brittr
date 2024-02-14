@@ -28,6 +28,18 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
   const pathname = usePathname();
   const theme = useTheme();
 
+  const routeToSection = (id: string) => {
+    const section = document.getElementById(id);
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    if (mobileRightMenu) {
+      handlerToggleMenu(false);
+    }
+  };
+
   const handlerToggleMenu = (state: boolean) => (event: React.KeyboardEvent | React.MouseEvent) => {
     if (
       event.type === 'keydown' &&
@@ -235,10 +247,14 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                             marginBottom: 1,
                           }}>
                           <ListItemButton sx={{ borderBottom: '1px solid rgba(255,255,255,0.2)' }}>
-                            <Typography variant="h6" component="span" sx={{ paddingLeft: 2 }}>
-                              <Link href={`/${locale}/${page.path}`} style={{ color: 'inherit' }}>
-                                {page.label}
-                              </Link>
+                            <Typography
+                              variant="h6"
+                              component="span"
+                              sx={{ paddingLeft: 2 }}
+                              title={page.label}
+                              onClick={() => routeToSection(page.path)}
+                              style={{ cursor: 'pointer' }}>
+                              {page.label}
                             </Typography>
                           </ListItemButton>
                         </ListItem>
@@ -262,14 +278,13 @@ const HeaderPage = ({ locale, langHeader: pages }: IRootParams) => {
                 {pages.map((page, index) => {
                   return (
                     <Typography key={index} variant="body1" noWrap component="span">
-                      <Link
+                      <span
                         className="header-navigation-list-text"
                         key={index}
-                        href={page.path}
-                        onClick={() => mobileRightMenu && handlerToggleMenu(false)}
+                        onClick={() => routeToSection(page.path)}
                         title={page.label}>
                         {page.label.toLocaleUpperCase('tr-TR')}
-                      </Link>
+                      </span>
                     </Typography>
                   );
                 })}

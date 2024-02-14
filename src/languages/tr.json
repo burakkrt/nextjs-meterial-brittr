@@ -34,23 +34,23 @@
       "pageCount": "5",
       "page1": {
         "label": "Anasayfa",
-        "path": ""
+        "path": "welcomeBanner"
       },
       "page2": {
         "label": "Hakkımızda",
-        "path": "#about-us"
+        "path": "about-us"
       },
       "page3": {
         "label": "Global",
-        "path": "#globalMap"
+        "path": "globalMap"
       },
       "page4": {
         "label": "Ürünler",
-        "path": "#products"
+        "path": "products"
       },
       "page5": {
         "label": "İletişim",
-        "path": "#footer"
+        "path": "footer"
       }
     },
     "selectLanguage": "Lütfen Dil Seçin"

@@ -34,23 +34,23 @@
       "pageCount": "5",
       "page1": {
         "label": "Home",
-        "path": ""
+        "path": "welcomeBanner"
       },
       "page2": {
         "label": "About",
-        "path": "#about-us"
+        "path": "about-us"
       },
       "page3": {
         "label": "Global",
-        "path": "#globalMap"
+        "path": "globalMap"
       },
       "page4": {
         "label": "Product",
-        "path": "#products"
+        "path": "products"
       },
       "page5": {
         "label": "Contact",
-        "path": "#footer"
+        "path": "footer"
       }
     },
     "selectLanguage": "Please Select Language"
