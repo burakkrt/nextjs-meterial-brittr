@@ -18,12 +18,12 @@
       "description": "This is an English page.",
       "keywords": "keywords1, keywords2",
       "metadataBase": {
-        "baseUrl": "http://localhost:3000"
+        "baseUrl": "https://briterrainc.com"
       },
       "openGraph": {
         "title": "Homepage",
         "description": "...",
-        "url": "...",
+        "url": "https://briterrainc.com",
         "siteName": "...",
         "imagesAlt": "..."
       }

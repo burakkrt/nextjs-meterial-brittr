@@ -18,12 +18,12 @@
       "description": "Bu türkçe bir sayfadır.",
       "keywords": "kelime1, kelime2",
       "metadataBase": {
-        "baseUrl": "http://localhost:3000"
+        "baseUrl": "https://briterrainc.com"
       },
       "openGraph": {
         "title": "Anasayfa",
         "description": "...",
-        "url": "...",
+        "url": "https://briterrainc.com",
         "siteName": "...",
         "imagesAlt": "..."
       }

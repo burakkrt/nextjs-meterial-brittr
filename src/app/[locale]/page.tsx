@@ -39,15 +39,9 @@ export async function generateMetadata({ params: { locale } }: IParams) {
       siteName: multiMetadata('Base.openGraph.siteName'),
       images: [
         {
-          url: '...',
+          url: 'op-800x800.png',
           width: 800,
           height: 600,
-        },
-        {
-          url: '...',
-          width: 1800,
-          height: 1600,
-          alt: multiMetadata('Home.openGraph.imagesAlt'),
         },
       ],
     },
