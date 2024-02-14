@@ -3,7 +3,7 @@ import React from 'react';
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { useTranslations } from 'next-intl';
 
-import { Player } from 'video-react';
+import { ControlBar, Player } from 'video-react';
 
 const WelcomeBanner = () => {
   const t = useTranslations('Welcome');
@@ -18,15 +18,14 @@ const WelcomeBanner = () => {
 
   return (
     <div className="welcome-banner" id="welcomeBanner">
-      {/* <video {...controlOptions} className="welcome-banner-video">
-        <source src="videos/welcome-video-back.mp4" type="video/mp4" />
-      </video>
+      <Player src="videos/welcome-video-back.mp4" autoPlay muted playsInline fluid>
+        <ControlBar autoHide={true} className="video-controls-bar" />
+      </Player>
       <div className="welcome-banner-content">
         <h1 className="welcome-banner-content-title">{t('videoTitle')}</h1>
         <p className="welcome-banner-content-text">{t('videoDesc')}</p>
       </div>
-      <KeyboardDoubleArrowDownIcon className="welcome-banner-down-icon" /> */}
-      <Player src="videos/welcome-video-back.mp4" autoPlay muted playsInline fluid />
+      <KeyboardDoubleArrowDownIcon className="welcome-banner-down-icon" />
     </div>
   );
 };

@@ -27,7 +27,7 @@
   //   background-color: rgba(0, 0, 0, 0.2);
   // }
 
-  &-video {
+  video {
     position: absolute;
     top: 0;
     left: 0;
@@ -38,6 +38,12 @@
     object-position: center;
     -webkit-filter: brightness(0.7);
     filter: brightness(0.7);
+  }
+
+  .video-react-button,
+  .video-controls-bar {
+    display: none !important;
+    pointer-events: none !important;
   }
 
   &-content {
