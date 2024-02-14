@@ -199,6 +199,10 @@
           "imgName": "seafood-6.jpg"
         },
         {
+          "title": "Canned Fish Varieties",
+          "imgName": "canneds-1.jpg"
+        },
+        {
           "title": "All Types of Seafood",
           "imgName": "seafood-7.jpg"
         }
@@ -228,14 +232,7 @@
         {
           "title": "All Types Of Processed Products",
           "imgName": "processed-5.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Deli Products",
-      "categoryDesc": "Our product range offers a wide selection, catering to different tastes and textures. In addition to traditional Turkish deli products such as sucuk, salami, sausage, pastrami, ham, we also offer cheese varieties, olive varieties, jams, pickles, and many other options. As a company, we aim to maintain the highest quality of our deli products. Each product is made from the freshest and highest quality ingredients using traditional methods. Additionally, our products are produced and packaged under hygienic conditions to provide our customers with reliable products.",
-      "categoryImgName": "delicatessen-category.jpg",
-      "products": [
+        },
         {
           "title": "Sausage",
           "imgName": "delicatessen-1.webp"
@@ -247,125 +244,6 @@
         {
           "title": "Luncheon Meat",
           "imgName": "delicatessen-3.webp"
-        }
-      ]
-    },
-    {
-      "category": "Egg Products",
-      "categoryDesc": "Our product range includes various forms and uses of eggs. In addition to fresh eggs, we offer processed egg products such as scrambled eggs, pasteurized egg products, egg powder, egg whites, and egg yolks. These products can be used for cooking, pre-cooking preparation, or as an ingredient in other food products. As a company, we always aim to maintain the highest quality of our egg products. Our fresh eggs are sourced from reliable producers and processed under hygienic conditions. Our processed egg products are also produced and packaged to high-quality standards.",
-      "categoryImgName": "eggs-category.jpg",
-      "products": [
-        {
-          "title": "White Eggs",
-          "imgName": "eggs-1.webp"
-        },
-        {
-          "title": "Brown Eggs",
-          "imgName": "eggs-2.webp"
-        }
-      ]
-    },
-    {
-      "category": "Fruits",
-      "categoryDesc": "Our product range includes various fruit varieties. We offer apples, pears, bananas, oranges, strawberries, grapes, mangoes, pineapples, and many other fruit varieties to our customers. Each fruit is grown using natural farming methods and harvested at its ripest and freshest state before being presented to our customers. As a company, we strive to maintain the highest quality of our fruits. By using sustainable farming practices in cultivation and harvest processes, we aim to protect natural resources and produce in an environmentally friendly manner. Additionally, we use effective storage and transportation methods to preserve the freshness and nutritional value of fruits.",
-      "categoryImgName": "fruits-category.webp",
-      "products": [
-        {
-          "title": "Blackberri",
-          "imgName": "fruits-1.jpg"
-        },
-        {
-          "title": "Raspberri",
-          "imgName": "fruits-2.webp"
-        },
-        {
-          "title": "Cherri",
-          "imgName": "fruits-3.png"
-        },
-        {
-          "title": "Strawberri",
-          "imgName": "fruits-4.webp"
-        },
-        {
-          "title": "All Kinds of Fruits",
-          "imgName": "fruits-5.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Vegetables",
-      "categoryDesc": "Our product range includes various vegetable varieties. We offer broccoli, carrots, lettuce, tomatoes, cucumbers, peppers, potatoes, zucchinis, artichokes, spinach, and many other vegetable varieties to our customers. Each vegetable is grown using natural farming methods and harvested fresh and healthy. As a company, we strive to maintain the highest quality of our vegetables. By using sustainable farming practices in cultivation and harvest processes, we aim to protect natural resources and produce in an environmentally friendly manner. Our vegetables are harvested when ripe and carefully packaged for customers.",
-      "categoryImgName": "vegetables-category.webp",
-      "products": [
-        {
-          "title": "Broccoli",
-          "imgName": "vegetables-1.webp"
-        },
-        {
-          "title": "Peas",
-          "imgName": "vegetables-2.webp"
-        },
-        {
-          "title": "Fresh Beans",
-          "imgName": "vegetables-3.jpg"
-        },
-        {
-          "title": "Brussels Sprouts",
-          "imgName": "vegetables-4.jpg"
-        },
-        {
-          "title": "All Kinds of Vegetables",
-          "imgName": "vegetables-5.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Canned Products",
-      "categoryDesc": "Our product range includes various food items designed to meet various needs. Vegetables, fruits, fish, meat products, ready meals, and many other food products are offered in canned form. These products offer practical use to our customers while preserving their freshness for a long time. As a company, we strive to maintain the highest quality of our canned products. Our products, made from the freshest and natural ingredients, undergo strict quality control procedures and are packaged under hygienic conditions. Thus, we can offer our customers reliable and delicious products.",
-      "categoryImgName": "canneds-category.jpg",
-      "products": [
-        {
-          "title": "Canned Fish Varieties",
-          "imgName": "canneds-1.jpg"
-        },
-        {
-          "title": "Canned Fruit Varieties",
-          "imgName": "canneds-2.webp"
-        },
-        {
-          "title": "Canned Vegetable Varieties",
-          "imgName": "canneds-3.jpg"
-        }
-      ]
-    },
-    {
-      "category": "Sauces",
-      "categoryDesc": "Our product range includes various sauce varieties catering to different tastes. BBQ sauce, hot sauce, teriyaki sauce, mustard sauce, garlic sauce, pesto sauce, mayonnaise, and many other sauce varieties are available. Each sauce is made using the freshest and natural ingredients, aiming for a rich flavor profile. As a company, we strive to maintain the highest quality of our sauces. Well-selected ingredients, carefully crafted recipes, and meticulously controlled production processes allow us to offer our customers reliable and delicious sauces. Additionally, we aim to target a wide customer base by offering options suitable for different dietary preferences, hence, vegan, gluten-free, or low-sodium sauces are also available.",
-      "categoryImgName": "sauces-category.jpg",
-      "products": [
-        {
-          "title": "Ketchup",
-          "imgName": "sauces-1.jpg"
-        },
-        {
-          "title": "Mayonnaise",
-          "imgName": "sauces-2.jpg"
-        },
-        {
-          "title": "BBQ Sauce",
-          "imgName": "sauces-3.webp"
-        },
-        {
-          "title": "Cheddar Sauce",
-          "imgName": "sauces-4.jpg"
-        },
-        {
-          "title": "Ranch Sauce",
-          "imgName": "sauces-5.webp"
-        },
-        {
-          "title": "All Kinds of Sauces",
-          "imgName": "sauces-6.jpg"
         }
       ]
     },
