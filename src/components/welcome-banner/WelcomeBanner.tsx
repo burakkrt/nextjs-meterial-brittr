@@ -9,27 +9,20 @@ import { isMobile } from 'react-device-detect';
 const WelcomeBanner = () => {
   const t = useTranslations('Welcome');
 
-  console.log(isMobile);
-
   function renderVideoDevice(mobileCheck: boolean) {
     if (mobileCheck) {
-      return (
-        <Player src="videos/welcome-video-mobile.mp4" autoPlay muted playsInline fluid>
-          <ControlBar autoHide={true} className="video-controls-bar" />
-        </Player>
-      );
+      return <source src="videos/welcome-video-mobile.mp4" />;
     } else {
-      return (
-        <Player src="videos/welcome-video-back.mp4" autoPlay muted playsInline fluid>
-          <ControlBar autoHide={true} className="video-controls-bar" />
-        </Player>
-      );
+      return <source src="videos/welcome-video-back.mp4" />;
     }
   }
 
   return (
     <div className="welcome-banner" id="welcomeBanner">
-      {renderVideoDevice(isMobile)}
+      <Player autoPlay muted playsInline fluid>
+        {renderVideoDevice(isMobile)}
+        <ControlBar autoHide={true} className="video-controls-bar" />
+      </Player>
       <div className="welcome-banner-content">
         <h1 className="welcome-banner-content-title">{t('videoTitle')}</h1>
         <p className="welcome-banner-content-text">{t('videoDesc')}</p>
