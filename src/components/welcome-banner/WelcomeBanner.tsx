@@ -4,15 +4,32 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 import { useTranslations } from 'next-intl';
 
 import { ControlBar, Player } from 'video-react';
+import { isMobile } from 'react-device-detect';
 
 const WelcomeBanner = () => {
   const t = useTranslations('Welcome');
 
+  console.log(isMobile);
+
+  function renderVideoDevice(mobileCheck: boolean) {
+    if (mobileCheck) {
+      return (
+        <Player src="videos/welcome-video-mobile.mp4" autoPlay muted playsInline fluid>
+          <ControlBar autoHide={true} className="video-controls-bar" />
+        </Player>
+      );
+    } else {
+      return (
+        <Player src="videos/welcome-video-back.mp4" autoPlay muted playsInline fluid>
+          <ControlBar autoHide={true} className="video-controls-bar" />
+        </Player>
+      );
+    }
+  }
+
   return (
     <div className="welcome-banner" id="welcomeBanner">
-      <Player src="videos/welcome-video-back.mp4" autoPlay muted playsInline fluid>
-        <ControlBar autoHide={true} className="video-controls-bar" />
-      </Player>
+      {renderVideoDevice(isMobile)}
       <div className="welcome-banner-content">
         <h1 className="welcome-banner-content-title">{t('videoTitle')}</h1>
         <p className="welcome-banner-content-text">{t('videoDesc')}</p>
