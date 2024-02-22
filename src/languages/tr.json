@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "Base": {
-      "applicationName": "...",
+      "applicationName": "Briterra Gıda İç Ve Dış Tic. A.Ş.",
       "referrer": "origin-when-cross-origin",
       "formatDetection": {
         "email": "false",
@@ -10,22 +10,22 @@
       },
       "openGraph": {
         "locale": "en_US",
-        "siteName": "..."
+        "siteName": "Briterra International Inc."
       }
     },
     "Home": {
-      "title": "Firma Adı",
-      "description": "Bu türkçe bir sayfadır.",
-      "keywords": "kelime1, kelime2",
+      "title": "Briterra Gıda İç Ve Dış Tic. A.Ş.",
+      "description": "BRITERRA INCORPORATION 2016 yılında İstanbul-Türkiye'de kurulmuş, dondurulmuş kırmızı kümes hayvanları ve kırmızı et ve deniz ürünleri ile uğraşan küresel bir ticaret şirketidir. Kuruluşundan bu yana, Şirket, başlangıçtaki hedeflerinin çok daha ötesine ulaşmış ve kısa sürede sadece Orta Doğu bölgesinin değil, BDT Ülkeleri (Bağımsız Devletler Topluluğu) ve Afrika'nın da önde gelen şirketlerinden biri haline gelmiştir.",
+      "keywords": "Briterra, Inc., Briterra, A.Ş., Dondurulmuş, kırmızı, kümes, hayvanları, Kırmızı, et, Deniz, ürünleri, Küresel, ticaret, şirketi, Orta, Doğu, BDT, Ülkeleri, Afrika, İthalat, Ticari, faaliyetler, ABD, Brezilya, Arjantin, Avustralya, Kore, Ukrayna, AB, Hızlı, teslimat, Güvenilir, gıda, ticareti, Helal, ürünler, Sağlık, standartları, Hijyen, Dünya, Sağlık, Örgütü, Güçlü, distribütörler, Küresel, tedarikçiler, MENA, GCC, limanları",
       "metadataBase": {
         "baseUrl": "https://briterrainc.com"
       },
       "openGraph": {
         "title": "Anasayfa",
-        "description": "...",
+        "description": "BRITERRA INCORPORATION 2016 yılında İstanbul-Türkiye'de kurulmuş, dondurulmuş kırmızı kümes hayvanları ve kırmızı et ve deniz ürünleri ile uğraşan küresel bir ticaret şirketidir. Kuruluşundan bu yana, Şirket, başlangıçtaki hedeflerinin çok daha ötesine ulaşmış ve kısa sürede sadece Orta Doğu bölgesinin değil, BDT Ülkeleri (Bağımsız Devletler Topluluğu) ve Afrika'nın da önde gelen şirketlerinden biri haline gelmiştir.",
         "url": "https://briterrainc.com",
-        "siteName": "...",
-        "imagesAlt": "..."
+        "siteName": "Briterra Gıda İç Ve Dış Tic. A.Ş.",
+        "imagesAlt": "BRITERRA INCORPORATION 2016 yılında İstanbul-Türkiye'de kurulmuş, dondurulmuş kırmızı kümes hayvanları ve kırmızı et ve deniz ürünleri ile uğraşan küresel bir ticaret şirketidir. Kuruluşundan bu yana, Şirket, başlangıçtaki hedeflerinin çok daha ötesine ulaşmış ve kısa sürede sadece Orta Doğu bölgesinin değil, BDT Ülkeleri (Bağımsız Devletler Topluluğu) ve Afrika'nın da önde gelen şirketlerinden biri haline gelmiştir."
       }
     }
   },

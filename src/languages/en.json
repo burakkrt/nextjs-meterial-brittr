@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "Base": {
-      "applicationName": "...",
+      "applicationName": "Briterra International Inc.",
       "referrer": "origin-when-cross-origin",
       "formatDetection": {
         "email": "false",
@@ -10,22 +10,22 @@
       },
       "openGraph": {
         "locale": "en_US",
-        "siteName": "..."
+        "siteName": "Briterra International Inc."
       }
     },
     "Home": {
-      "title": "Firma Adı",
-      "description": "This is an English page.",
-      "keywords": "keywords1, keywords2",
+      "title": "Briterra International Inc.",
+      "description": "BRITERRA INCORPORATION, established in 2016 in Istanbul-Turkey, is a global trading company dealing in frozen red poultry and red meat and seafood. Since its establishment, the Company has reached far beyond its initial goals and has quickly expanded not only to the Middle East region but also to It has become one of the leading companies in the CIS Countries (Commonwealth of Independent States) and Africa.",
+      "keywords": "Briterra, Inc., Briterra, A.Ş., Frozen, red, poultry, animals, Red, meat, Seafood, Global, trading, company, Middle, East, CIS, Countries, Africa, Import, Commercial, activities, USA, Brazil, Argentina, Australia, Korea, Ukraine, EU, Fast, delivery, Reliable, food, trade, Halal, products, Health, standards, Hygiene, World, Health, Organization, Strong, distributors, Global, suppliers, MENA, GCC, ports",
       "metadataBase": {
         "baseUrl": "https://briterrainc.com"
       },
       "openGraph": {
         "title": "Homepage",
-        "description": "...",
+        "description": "BRITERRA INCORPORATION, established in 2016 in Istanbul-Turkey, is a global trading company dealing in frozen red poultry and red meat and seafood. Since its establishment, the Company has reached far beyond its initial goals and has quickly expanded not only to the Middle East region but also to It has become one of the leading companies in the CIS Countries (Commonwealth of Independent States) and Africa.",
         "url": "https://briterrainc.com",
-        "siteName": "...",
-        "imagesAlt": "..."
+        "siteName": "Briterra International Inc.",
+        "imagesAlt": "BRITERRA INCORPORATION, established in 2016 in Istanbul-Turkey, is a global trading company dealing in frozen red poultry and red meat and seafood. Since its establishment, the Company has reached far beyond its initial goals and has quickly expanded not only to the Middle East region but also to It has become one of the leading companies in the CIS Countries (Commonwealth of Independent States) and Africa."
       }
     }
   },
