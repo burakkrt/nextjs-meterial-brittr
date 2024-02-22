@@ -36,7 +36,7 @@ function SimpleDialog(props: SimpleDialogProps) {
       <ListItem disableGutters key={index}>
         <Link
           locale={country.code.toLocaleLowerCase('en-US')}
-          href={`${pathname.replace(locale, country.code.toLocaleLowerCase('en-US'))}`}>
+          href={`${country.code.toLocaleLowerCase('en-US')}`}>
           <ListItemButton sx={{ minWidth: 300 }} onClick={() => handleListItemClick(country)}>
             <ListItemAvatar>
               <Avatar sx={{ bgcolor: 'transparent', color: 'none' }}>
