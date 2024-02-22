@@ -34,9 +34,7 @@ function SimpleDialog(props: SimpleDialogProps) {
   const createLinks = () => {
     return currentCountries.map((country, index) => (
       <ListItem disableGutters key={index}>
-        <Link
-          locale={country.code.toLocaleLowerCase('en-US')}
-          href={`${country.code.toLocaleLowerCase('en-US')}`}>
+        <a href={`https://briterrainc.com/${country.code.toLocaleLowerCase('en-US')}`}>
           <ListItemButton sx={{ minWidth: 300 }} onClick={() => handleListItemClick(country)}>
             <ListItemAvatar>
               <Avatar sx={{ bgcolor: 'transparent', color: 'none' }}>
@@ -45,7 +43,7 @@ function SimpleDialog(props: SimpleDialogProps) {
             </ListItemAvatar>
             <ListItemText primary={country.name} />
           </ListItemButton>
-        </Link>
+        </a>
       </ListItem>
     ));
   };
