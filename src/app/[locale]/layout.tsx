@@ -34,6 +34,9 @@ export default function RootLayout({ children, params: { locale } }: IRootParams
 
   return (
     <html lang={locale}>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
       <NextIntlClientProvider messages={messages}>
         <ThemeRootProvider>
           <body>
