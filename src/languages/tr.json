@@ -56,16 +56,16 @@
     "selectLanguage": "Lütfen Dil Seçin"
   },
   "Welcome": {
-    "videoTitle": "Lorem ipsum dolor sit amet.",
-    "videoDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. "
+    "videoTitle": "Briterra ile tanışın.",
+    "videoDesc": "Briterra, kuruluşundan bu yana faaliyet gösterdiği ülke ve sektörlerde yenilikçi-gelişim ve büyüme odaklı çalışmalarını sürdürmüş ve Orta Doğu, Orta Asya, Kafkaslar ve Afrika pazarlarında küresel ölçekte yüksek potansiyel iş hacmine ulaşmıştır. Briterra dünyanın en güçlü üreticilerinin ürünlerini tedarik ediyor; müşterilerinin taleplerini hızlı, güvenilir ve uygun koşullarda karşılayan; limanlarında sahip olduğu lojistik imkanları, dünya çapındaki ofisleri, geniş ürün yelpazesi, sektörel bilgi ve tecrübesiyle küresel bir şirket olarak faaliyet göstermektedir."
   },
   "AboutUs": {
     "title": "Lorem ipsum dolor sit amet.",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex. Nullam ultricies, libero ut sagittis luctus, massa eros auctor sapien, facilisis ultrices libero urna quis diam. Donec sed nisi ut erat hendrerit lobortis. Quisque pellentesque iaculis fringilla. Integer scelerisque lectus quis molestie gravida. Cras tempor pretium nulla, id imperdiet odio maximus id. "
+    "text": "BRITERRA INCORPORATION 2016 yılında İstanbul-Türkiye'de kurulmuş, dondurulmuş kırmızı kümes hayvanları ve kırmızı et ve deniz ürünleri ile uğraşan küresel bir ticaret şirketidir. Kuruluşundan bu yana, Şirket, başlangıçtaki hedeflerinin çok daha ötesine ulaşmış ve kısa sürede sadece Orta Doğu bölgesinin değil, BDT Ülkeleri (Bağımsız Devletler Topluluğu) ve Afrika'nın da önde gelen şirketlerinden biri haline gelmiştir. Son zamanlarda, Briterra A.Ş., ABD, Brezilya, Arjantin, Avustralya, Kore, Ukrayna, AB ve Türkiye'de bulunan ana iş ortaklarından ithalat yaptığı 10 farklı ülkede ticari faaliyetleriyle global bir şirket olarak faaliyetlerine devam etmektedir. Briterra Inc. en iyi fiyatlarla en hızlı teslimatı sunar ve hizmet verir, sektördeki uzmanlığının gücüyle; MENA, BDT ve GCC'nin önemli limanlarında faaliyet gösteren küresel tedarikçiler ve güçlü distribütörlerle güçlü ilişkiler. Güvenilir bir gıda ticaret firması olarak, Briterra A.Ş. müşterilerine karşı sorumluluğunun bilincinde olup, ürettiği tüm ürünleri sağlık ve hijyenin yanı sıra 'Helal' açısından da değerlendirmekte, Dünya Sağlık Örgütü standartlarını da önemsemektedir."
   },
   "Products": {
     "title": "Ürünler",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex.",
+    "text": "Dünyanın dört bir yanından en kaliteli gıda ürünlerini tedarik etmeye ve sağlamaya kendimizi adadık. Lider bir uluslararası gıda ticaret şirketi olarak, her işlemde güvenilirlik, verimlilik ve mükemmelliği sağlıyoruz. Ürün yelpazemiz çok çeşitli ve kapsamlı olup, çok çeşitli mutfak ihtiyaçlarına cevap vermektedir. Kalite, güvenilirlik, ve müşteri memnuniyeti en önemli önceliklerimizdir. Ürünlerimiz en yüksek kalite standartlarını karşılayacak şekilde titizlikle seçilip işlenmektedir. Gıda endüstrisindeki uzmanlığımız ve tecrübemizle, her müşterinin kendine özgü gereksinimlerini karşılamak için özel çözümler sunuyoruz. Sektördeki güçlü ilişkilerimiz, sürekli olarak yenilikçi ve rekabetçi ürünler sunmamızı sağlıyor.",
     "allView": "Tümünü Göster",
     "categoryTitle": "Ürün Kategorileri",
     "allCategoryTitle": "Tüm Ürünler",
@@ -74,7 +74,7 @@
   },
   "Footer": {
     "brandName": "Briterra Gıda İç Ve Dış Tic. A.Ş.",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac odio eu enim egestas ullamcorper quis a diam. Mauris ac risus eget sem convallis scelerisque. Duis maximus posuere felis, a ultrices felis dapibus vitae. Pellentesque libero justo, vulputate et mauris at, auctor pulvinar tortor. Fusce quis tellus ex.",
+    "text": "Briterra Inc, dünyanın dört bir yanından yüksek kaliteli ürünler tedarik etmeye kendini adamış, lider bir uluslararası gıda ticaret şirketidir. Kapsamlı tedarikçi ve ortak ağımızla her işlemde güvenilirlik, verimlilik ve mükemmellik sağlıyoruz.",
     "mailTitle": "Mail",
     "phoneTitle": "Telefon",
     "addressTitle": "Adres",
@@ -82,7 +82,7 @@
   },
   "GlobalMap": {
     "title": "KÜRESEL HARİTA",
-    "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum odit officiis nihil ad voluptatum voluptatem veniam culpa nam quae dolorum quisquam sapiente ullam autem a, facilis architecto sit eos sint."
+    "text": "Briterra Inc son dönemde ABD, Brezilya, Arjantin, Avustralya, Kore, Ukrayna, AB ve Türkiye'de bulunan ana iş ortaklarından ithalat yaptığı 10 farklı ülkede ticari faaliyetleriyle global bir şirket olarak faaliyetlerine devam etmektedir. Briterra Inc. en iyi fiyatlarla en hızlı teslimatı sunar ve hizmet verir, sektördeki uzmanlığının gücüyle; MENA, BDT ve GCC'nin önemli limanlarında faaliyet gösteren küresel tedarikçiler ve güçlü distribütörlerle güçlü ilişkiler."
   },
   "Referances": {
     "title": "Çözüm Ortaklarımız"

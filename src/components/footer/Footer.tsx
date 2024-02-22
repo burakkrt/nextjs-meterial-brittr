@@ -13,6 +13,15 @@ import { useTranslations } from 'next-intl';
 
 const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
   const t = useTranslations('Footer');
+
+  const routeToSection = (id: string) => {
+    const section = document.getElementById(id);
+
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <footer>
       <div className="footer" id="footer">
@@ -92,7 +101,7 @@ const Footer: React.FC<IFooterProps> = ({ pages, locale }) => {
           <Grid container className="footer-bottom">
             <Grid item xs={12} sm={6} className="footer-bottom-pages">
               {pages?.map((page, index) => (
-                <Link key={index} href={'/' + (locale && locale) + page.path}>
+                <Link key={index} href="#">
                   {page.label}
                 </Link>
               ))}
