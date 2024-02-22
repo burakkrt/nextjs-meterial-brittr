@@ -37,31 +37,31 @@ const GlobalMap = () => {
           <Marker position={[51.505, -0.09]}>
             <Popup>
               <strong>Londra</strong>
-              <p>Buraya açıklama girelebilir.</p>
+              {/* <p>Buraya açıklama girelebilir.</p> */}
             </Popup>
           </Marker>
           <Marker position={[38.963745, 35.24332]}>
             <Popup>
               <strong>Türkiye</strong>
-              <p>Buraya açıklama girelebilir.</p>
+              {/* <p>Buraya açıklama girelebilir.</p> */}
             </Popup>
           </Marker>
           <Marker position={[40.712776, -74.005974]}>
             <Popup>
-              <strong>Amerika</strong>
-              <p>Buraya açıklama girelebilir.</p>
+              <strong>U.S.A</strong>
+              {/* <p>Buraya açıklama girelebilir.</p> */}
             </Popup>
           </Marker>
           <Marker position={[46.395726, 1.963944]}>
             <Popup>
               <strong>France</strong>
-              <p>Buraya açıklama girelebilir.</p>
+              {/* <p>Buraya açıklama girelebilir.</p> */}
             </Popup>
           </Marker>
           <Marker position={[60.870992, 92.263247]}>
             <Popup>
               <strong>Moscow</strong>
-              <p>Buraya açıklama girelebilir.</p>
+              {/* <p>Buraya açıklama girelebilir.</p> */}
             </Popup>
           </Marker>
         </MapContainer>
