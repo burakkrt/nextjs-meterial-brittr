@@ -44,6 +44,12 @@
       filter: brightness(0.7);
     }
 
+    .video-react-poster {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
     .video-react-button,
     .video-controls-bar {
       display: none !important;
