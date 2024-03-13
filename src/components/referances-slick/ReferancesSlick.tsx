@@ -76,62 +76,77 @@ const ReferancesSlick = () => {
       <Slider {...settings}>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-1.jpg" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-1.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-2.jpg" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-2.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-3.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-3.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-4.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-4.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-11.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-11.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-5.jpg" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-5.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-6.jpg" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-6.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-7.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-7.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-8.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-8.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-9.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-9.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-10.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-10.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
         <div className="slick-item">
           <div className="ref-image">
-            <Image src="/images/referances/ref-12.png" alt="Referance Logo" fill sizes="100%" />
+            <Image src="/images/referances/ref-11.webp" alt="Referance Logo" fill sizes="100%" />
+          </div>
+        </div>
+        <div className="slick-item">
+          <div className="ref-image">
+            <Image src="/images/referances/ref-12.webp" alt="Referance Logo" fill sizes="100%" />
+          </div>
+        </div>
+        <div className="slick-item">
+          <div className="ref-image">
+            <Image src="/images/referances/ref-13.webp" alt="Referance Logo" fill sizes="100%" />
+          </div>
+        </div>
+        <div className="slick-item">
+          <div className="ref-image">
+            <Image src="/images/referances/ref-14.webp" alt="Referance Logo" fill sizes="100%" />
           </div>
         </div>
       </Slider>

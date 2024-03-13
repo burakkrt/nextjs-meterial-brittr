@@ -12,14 +12,14 @@ const WelcomeBanner = () => {
   function renderVideo(mobileCheck: boolean) {
     if (mobileCheck) {
       return (
-        <Player autoPlay muted playsInline fluid poster="/images/welcome-poster-mobile.png">
+        <Player autoPlay muted playsInline fluid poster="/images/welcome-poster-mobile.webp">
           <source src="/videos/welcome-video-mobile.mp4" />
           <ControlBar autoHide={true} className="video-controls-bar" />
         </Player>
       );
     } else {
       return (
-        <Player autoPlay muted playsInline fluid poster="/images/welcome-poster.png">
+        <Player autoPlay muted playsInline fluid poster="/images/welcome-poster.webp">
           <source src="/videos/welcome-video-back.mp4" />
           <ControlBar autoHide={true} className="video-controls-bar" />
         </Player>

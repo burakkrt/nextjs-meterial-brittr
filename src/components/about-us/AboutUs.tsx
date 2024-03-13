@@ -16,7 +16,7 @@ const AboutUs = () => {
               <p className="about-us-content-view-left-text">{t('text')}</p>
             </div>
             <div className="about-us-content-view-image">
-              <Image src="/images/about-us-why.jpg" alt="About Us Image" fill sizes="100%" />
+              <Image src="/images/about-us-why.webp" alt="About Us Image" fill sizes="100%" />
             </div>
           </div>
         </div>
