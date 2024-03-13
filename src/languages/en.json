@@ -82,7 +82,21 @@
   },
   "GlobalMap": {
     "title": "GLOBAL MAP",
-    "text": "Recently, Briterra Inc continues  the business as a global company with its commercial operations in 10 different countries company  imports from its main business partners located in US,Brazil,Argentina,Australia,Korea,Ukraine,EU and Turkey. Briterra Inc offers & services  quickest delivery with the best prices , by the power of its proficiency in the industry; strong relations with global suppliers & strong distributors operating at  the important ports of MENA,CIS and GCC."
+    "text": "Recently, Briterra Inc continues  the business as a global company with its commercial operations in 10 different countries company  imports from its main business partners located in US,Brazil,Argentina,Australia,Korea,Ukraine,EU and Turkey. Briterra Inc offers & services  quickest delivery with the best prices , by the power of its proficiency in the industry; strong relations with global suppliers & strong distributors operating at  the important ports of MENA,CIS and GCC.",
+    "USA": "America",
+    "BRA": "Brazil",
+    "MRT": "Mauritania",
+    "COG": "Republic of the Congo",
+    "GIN": "Guinea",
+    "GHA": "Ghana",
+    "BEN": "Benin",
+    "IND": "India",
+    "GEO": "Georgia",
+    "MAR": "Morocco",
+    "LBY": "Libya",
+    "TUN": "Tunisia",
+    "RUS": "Russia",
+    "OMN": "Oman"
   },
   "Referances": {
     "title": "Our Solution Partners"

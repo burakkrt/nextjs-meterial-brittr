@@ -82,7 +82,21 @@
   },
   "GlobalMap": {
     "title": "KÜRESEL HARİTA",
-    "text": "Briterra Inc son dönemde ABD, Brezilya, Arjantin, Avustralya, Kore, Ukrayna, AB ve Türkiye'de bulunan ana iş ortaklarından ithalat yaptığı 10 farklı ülkede ticari faaliyetleriyle global bir şirket olarak faaliyetlerine devam etmektedir. Briterra Inc. en iyi fiyatlarla en hızlı teslimatı sunar ve hizmet verir, sektördeki uzmanlığının gücüyle; MENA, BDT ve GCC'nin önemli limanlarında faaliyet gösteren küresel tedarikçiler ve güçlü distribütörlerle güçlü ilişkiler."
+    "text": "Briterra Inc son dönemde ABD, Brezilya, Arjantin, Avustralya, Kore, Ukrayna, AB ve Türkiye'de bulunan ana iş ortaklarından ithalat yaptığı 10 farklı ülkede ticari faaliyetleriyle global bir şirket olarak faaliyetlerine devam etmektedir. Briterra Inc. en iyi fiyatlarla en hızlı teslimatı sunar ve hizmet verir, sektördeki uzmanlığının gücüyle; MENA, BDT ve GCC'nin önemli limanlarında faaliyet gösteren küresel tedarikçiler ve güçlü distribütörlerle güçlü ilişkiler.",
+    "USA": "Amerika",
+    "BRA": "Brezilya",
+    "MRT": "Moritanya",
+    "COG": "Kongo Cumhuriyetleri",
+    "GIN": "Gine",
+    "GHA": "Gana",
+    "BEN": "Benin",
+    "IND": "Hindistan",
+    "GEO": "Gürcistan",
+    "MAR": "Fas",
+    "LBY": "Libya",
+    "TUN": "Tunus",
+    "RUS": "Rusya",
+    "OMN": "Umman"
   },
   "Referances": {
     "title": "Çözüm Ortaklarımız"
